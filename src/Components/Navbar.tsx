@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div>
@@ -66,7 +67,7 @@ const Navbar = () => {
       <nav className="bg-red-800">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between gap-y-6 mx-auto p-4">
           <div className="w-full flex flex-row justify-between items-center">
-            <a href="" className="flex items-center ">
+            <Link to="" className="flex items-center ">
               <div className="h-12">
                 <img
                   src="/Logo.jpeg"
@@ -84,56 +85,57 @@ const Navbar = () => {
                   className="w-[75px] h-[26px]"
                 />
               </div>
-            </a>
+            </Link>
+
             <div className="flex flex-row gap-1 justify-normal items-center">
-              <a
-                href=""
+              <Link
+                to=""
                 className="px-4 h-fit py-2 bg-sky-600 mx-2 rounded-lg  md:block text-white cursor-pointer "
               >
                 Submit Paper
-              </a>
+              </Link>
             </div>
           </div>
           <div className=" md:block">
             <ul className="flex flex-col gap-3 md:text-sm lg:gap-5 justify-between md:items-center items-start font-medium md:p-0 rounded-lg md:flex-row md:mt-0 md:border-0">
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <a href="/">HOME</a>
+                  <Link to="/">HOME</Link>
                 </li>
               </div>
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <a href="/about">ABOUT</a>
+                  <Link to="/about">ABOUT</Link>
                 </li>
               </div>
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <a href="/guidelines">GUIDELINES</a>
+                  <Link to="/guidelines">GUIDELINES</Link>
                 </li>
               </div>
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <a href="/speakers">SPEAKERS</a>
+                  <Link to="/speakers">SPEAKERS</Link>
                 </li>
               </div>
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <a href="/committee">COMMITTEE</a>
+                  <Link to="/committee">COMMITTEE</Link>
                 </li>
               </div>
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <a href="/call-for-papers">CALL FOR PAPERS</a>
+                  <Link to="/call-for-papers">CALL FOR PAPERS</Link>
                 </li>
               </div>
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <a href="/register">REGISTER</a>
+                  <Link to="/register">REGISTER</Link>
                 </li>
               </div>
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <a href="/contact">CONTACT</a>
+                  <Link to="/contact">CONTACT</Link>
                 </li>
               </div>
             </ul>
