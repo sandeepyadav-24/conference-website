@@ -89,7 +89,7 @@ const Navbar = () => {
 
             <div className="flex flex-row gap-1 justify-normal items-center">
               <Link
-                to=""
+                to="google.com"
                 className="px-4 h-fit py-2 bg-sky-600 mx-2 rounded-lg  md:block text-white cursor-pointer "
               >
                 Submit Paper
