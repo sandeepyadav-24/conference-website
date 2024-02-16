@@ -190,7 +190,7 @@ const Speakers = () => {
               <div className="flex flex-col gap-1 col-span-2 my-2">
                 <div className="py-2">
                   <div className="rounded-full w-fit font-semibold bg-blue-800 bg-opacity-20">
-                    <p classNameclass="px-2 py-0.5 text-sm text-blue-800">
+                    <p className="px-2 py-0.5 text-sm text-blue-800">
                       International Speaker
                     </p>
                   </div>
