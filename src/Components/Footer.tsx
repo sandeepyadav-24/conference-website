@@ -75,7 +75,7 @@ const Footer = () => {
             <p className="py-1 block">
               Developed by
               <a href="https://github.com/sandeepyadav-24"> Sandeep Yadav, </a>
-              <a href=""> Suyash Gautam</a>
+              <a href="https://github.com/TheGamingBaba"> Suyash Gautam</a>
             </p>
           </span>
           <div className="flex mt-4 space-x-6 text-2xl text-white sm:justify-center sm:mt-0">
