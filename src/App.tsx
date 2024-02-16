@@ -12,23 +12,20 @@ import Contact from "./Components/Contact";
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/guidelines" element={<Guidelines />}></Route>
-          <Route path="/speakers" element={<Speakers />}></Route>
-          <Route path="/committee" element={<Committee />}></Route>
-          <Route path="/call-for-papers" element={<CallForPapers />}></Route>
-          <Route path="/register" element={<Register />}></Route>
-          <Route path="/contact" element={<Contact />}></Route>
-        </Routes>
-      </Router>
-
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/about" element={<About />}></Route>
+        <Route path="/guidelines" element={<Guidelines />}></Route>
+        <Route path="/speakers" element={<Speakers />}></Route>
+        <Route path="/committee" element={<Committee />}></Route>
+        <Route path="/call-for-papers" element={<CallForPapers />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 };
 export default App;

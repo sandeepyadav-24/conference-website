@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Body = () => {
   return (
     <div className="flex flex-col space-y-5">
@@ -80,12 +81,12 @@ const Body = () => {
           <div className="w-full lg:w-min-sm">
             <div className="mt-5 p-4 rounded-t-md bg-gray-200 border-l-4 border-red-600 w-full lg:max-w-sm flex justify-between items-center">
               <p className="font-semibold text-lg">Inauguration Brochure</p>
-              <a
-                href="/documents/inauguration_schedule.pdf"
+              <Link
+                to="/documents/inauguration_schedule.pdf"
                 className="inline-flex items-center justify-center px-3 py-2 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
               >
                 Download
-              </a>
+              </Link>
             </div>
             <div className="relative h-60 p-4 rounded-b-md bg-gray-100 w-full lg:max-w-sm lg:max-h-80 lg:overflow-y-auto overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-thumb-rounded-md scrollbar-track-gray-200"></div>
           </div>
@@ -94,7 +95,7 @@ const Body = () => {
               <p className="font-semibold text-lg">Important Notices</p>
             </div>
             <div className="p-4 rounded-b-md bg-gray-100 w-full lg:max-w-sm lg:max-h-80 lg:overflow-y-auto overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-thumb-rounded-md scrollbar-track-gray-200">
-              <a href="/registration">
+              <Link to="/registration">
                 <div className="flex flex-col space-x-2 items-start -mx-4 -my-5 p-4 bg-orange-100">
                   <div>
                     <div className="flex space-x-2 mt-2">
@@ -115,8 +116,9 @@ const Body = () => {
                     </p>
                   </div>
                 </div>
-              </a>
-              <a href="https://ieeexplore.ieee.org/xpl/conhome/10073967/proceeding">
+              </Link>
+
+              <Link to="https://ieeexplore.ieee.org/xpl/conhome/10073967/proceeding">
                 <div className="flex flex-col space-x-2 items-start -mx-4 -my-4 p-4">
                   <div>
                     <div className="flex space-x-2 mt-2">
@@ -128,7 +130,7 @@ const Body = () => {
                     </p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="w-full mx-auto">
@@ -236,7 +238,7 @@ const Body = () => {
               <p className="font-semibold text-lg">Important Downloads</p>
             </div>
             <div className="space-y-3 p-4 rounded-b-md bg-gray-100 w-full lg:max-w-sm lg:max-h-52 lg:overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-thumb-rounded-md scrollbar-track-gray-200">
-              <a href="" className="cursor-pointer">
+              <Link to="https://www.google.com" className="cursor-pointer">
                 <div className="flex items-start justify-between">
                   <div className="flex space-x-2 items-start">
                     <div>
@@ -255,8 +257,9 @@ const Body = () => {
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
-              </a>
-              <a href="" className="cursor-pointer">
+              </Link>
+
+              <Link to="https://www.google.com" className="cursor-pointer">
                 <div className="flex items-start justify-between">
                   <div>
                     <p className="font-medium">
@@ -270,8 +273,9 @@ const Body = () => {
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
-              </a>
-              <a href="" className="cursor-pointer">
+              </Link>
+
+              <Link to="https://www.google.com" className="cursor-pointer">
                 <div className="flex items-start justify-between">
                   <div className="flex space-x-2 items-start">
                     <div>
@@ -280,8 +284,9 @@ const Body = () => {
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
-              </a>
-              <a href="" className="cursor-pointer">
+              </Link>
+
+              <Link to="https://www.google.com" className="cursor-pointer">
                 <div className="flex items-start justify-between">
                   <div className="flex space-x-2 items-start">
                     <div>
@@ -290,8 +295,9 @@ const Body = () => {
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
-              </a>
-              <a href="" className="cursor-pointer">
+              </Link>
+
+              <Link to="https://www.google.com" className="cursor-pointer">
                 <div className="flex items-start justify-between">
                   <div className="flex space-x-2 items-start">
                     <div>
@@ -300,8 +306,9 @@ const Body = () => {
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
-              </a>
-              <a href="" className="cursor-pointer">
+              </Link>
+
+              <Link to="https://www.google.com" className="cursor-pointer">
                 <div className="flex items-start justify-between">
                   <div className="flex space-x-2 items-start">
                     <div>
@@ -310,7 +317,7 @@ const Body = () => {
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>

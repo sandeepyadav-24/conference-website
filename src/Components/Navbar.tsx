@@ -67,7 +67,7 @@ const Navbar = () => {
       <nav className="bg-red-800">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between gap-y-6 mx-auto p-4">
           <div className="w-full flex flex-row justify-between items-center">
-            <Link to="" className="flex items-center ">
+            <div className="flex items-center">
               <div className="h-12">
                 <img
                   src="/Logo.jpeg"
@@ -85,11 +85,11 @@ const Navbar = () => {
                   className="w-[75px] h-[26px]"
                 />
               </div>
-            </Link>
+            </div>
 
             <div className="flex flex-row gap-1 justify-normal items-center">
               <Link
-                to="google.com"
+                to="https://www.google.com/"
                 className="px-4 h-fit py-2 bg-sky-600 mx-2 rounded-lg  md:block text-white cursor-pointer "
               >
                 Submit Paper
