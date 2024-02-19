@@ -1,4 +1,10 @@
 import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Intro = () => {
   return (
@@ -139,94 +145,90 @@ const Intro = () => {
           </Link>
         </div>
       </div>
-      <div className="col-span-full lg:col-span-3 flex h-full w-full px-1 rounded-lg overflow-hidden">
-        <div className="relative w-full h-full overflow-x-hidden flex">
-          <div
-            draggable="false"
-            className="w-full h-full inline-block flex-none left-0 right-0 transform-none select-none touch-action-pan-y"
+
+      <div className="col-span-full lg:col-span-2 flex flex-col justify-between h-full self-start gap-2 ml-40 w-[300px]">
+        <div className="col-span-full lg:col-span-3 flex h-full w-full px-1 rounded-lg overflow-hidden">
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            autoplay={{
+              delay: 1000,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            modules={[Autoplay, Pagination, Navigation]}
+            className="mySwiper"
           >
-            <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
-              <img
+            <SwiperSlide>
+              <div
+                className=" h-full flex-none w-[400px] left-0 right-0 transform-none transition-transform ease-in-out"
                 draggable="false"
-                alt=""
-                srcSet="https://icac3n.in/_next/image?url=%2Fimages%2Fslider%2Fimage2.jpg&w=3840&q=75 1x"
-                src="https://icac3n.in/_next/image?url=%2Fimages%2Fslider%2Fimage2.jpg&w=3840&q=75"
-                width="3000"
-                height="2000"
-                decoding="async"
-                data-nimg="1"
-                className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div
-            draggable="false"
-            className="w-full h-full inline-block flex-none left-full right-full transform-none select-none touch-action-pan-y"
-          >
-            <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
-              <img
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="https://itsengg.edu.in/Awards/VC%20sir%20post%20-1-.png"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
                 draggable="false"
-                alt=""
-                srcSet="https://icac3n.in/_next/image?url=%2Fimages%2Fslider%2Fimage3.jpg&w=3840&q=75 1x"
-                src="https://icac3n.in/_next/image?url=%2Fimages%2Fslider%2Fimage3.jpg&w=3840&q=75"
-                width="3000"
-                height="2000"
-                decoding="async"
-                data-nimg="1"
-                className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div
-            draggable="false"
-            className="w-full h-full inline-block flex-none left-200 right-200 transform-none select-none touch-action-pan-y"
-          >
-            <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
-              <img
+                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="https://itsengg.edu.in/photoset/Infrastrcuture/.21%20bhaba%20seminar%20hall%20at%20its%20engineering%20college%20greater%20noida.jpg_m.jpg"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
                 draggable="false"
-                alt=""
-                srcSet="https://icac3n.in/_next/image?url=%2Fimages%2Fslider%2Fimage4.jpg&w=3840&q=75 1x"
-                src="https://icac3n.in/_next/image?url=%2Fimages%2Fslider%2Fimage4.jpg&w=3840&q=75"
-                width="3000"
-                height="2000"
-                decoding="async"
-                data-nimg="1"
-                className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div
-            className="w-full h-full inline-block flex-none left-300 right-300 transform-none select-none touch-action-pan-y"
-            draggable="false"
-          >
-            <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
-              <img
-                draggable="false"
-                alt=""
-                srcSet="/_next/image?url=%2Fimages%2Fslider%2Fimage6.jpg&amp;w=3840&amp;q=75 1x"
-                src="/_next/image?url=%2Fimages%2Fslider%2Fimage6.jpg&amp;w=3840&amp;q=75"
-                width="3000"
-                height="2000"
-                decoding="async"
-                data-nimg="1"
-                className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
-                loading="lazy"
-              />
-            </div>
-          </div>
-          <div className="absolute bottom-0 left-0 w-full h-10 bg-gray-800 bg-opacity-20 flex flex-row gap-2 items-center justify-center rounded-lg">
-            <div className="bg-amber-400 w-3 h-3  cursor-pointer hover:bg-red-600 transition duration-300 ease-in-out rounded-lg"></div>
-            <div className="bg-white w-3 h-3  cursor-pointer hover:bg-red-600 transition duration-300 ease-in-out rounded-lg"></div>
-            <div className="bg-white w-3 h-3  cursor-pointer hover:bg-red-600 transition duration-300 ease-in-out rounded-lg"></div>
-            <div className="bg-white w-3 h-3  cursor-pointer hover:bg-red-600 transition duration-300 ease-in-out rounded-lg"></div>
-          </div>
+                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="https://itsengg.edu.in/photoset/PhotoSet%201/.life-time-achievement-award.jpg_m.jpg"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
-      <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
     </div>
   );
 };
 export default Intro;
+
+{
+  /*relative w-full h-full overflow-x-hidden flex */
+}

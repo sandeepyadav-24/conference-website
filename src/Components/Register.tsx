@@ -2,7 +2,7 @@ const Register = () => {
   return (
     <div>
       <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
-        <div className="prose mx-4 my-8">
+        <div className="prose mx-4 my-8 w-[700px]">
           <h1 className="heading text-tw-prose-headings font-extrabold text-2xl mt-0 mb-2 leading-tight border-l-4 border-red-600 pl-4 pr-4">
             Registration
           </h1>
@@ -36,7 +36,11 @@ const Register = () => {
             Registration Fee
           </h2>
           <div>
-            <img src="images/misc/registration_fee.png" alt="" />
+            <img
+              src="https://icac3n.in/images/misc/registration_fee.png"
+              alt=""
+              className="max-w-full h-auto my-8"
+            />
             <p>* Including 18% GST</p>
           </div>
           <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />

@@ -7,25 +7,12 @@ const About = () => {
             About ITS Group of Institute
           </h1>
           <p className="text-justify mb-5 mt-5">
-            I.T.S Engineering College, located in Greater Noida, is a
-            distinguished institution for Engineering and Management, founded by
-            leading professionals committed to delivering high-quality,
-            industry-focused education at an affordable cost. With a rich
-            history spanning around three decades, the ITS Education Group has
-            emerged as a key player in higher education in North India,
-            operating nine institutes with more than 20,000 students and a
-            dedicated staff of over 1,250. The group excels in various
-            disciplines, including Information Technology, Engineering,
-            Management, Dental, Pharmacy, and Physiotherapy. Established in 2006
-            under the visionary leadership of Chairman Dr. R.P. Chadha, ITS
-            Engineering College holds NBA accreditation, showcasing its
-            dedication to providing top-notch education. Approved by AICTE and
-            affiliated with AKTU-Lucknow, the college offers diverse programs,
-            such as B. Tech in Civil, Computer Science & Engineering (CSE),
-            CSE-Artificial Intelligence and Machine Learning, CSE-Data Science,
-            Electronics and Communication Engineering, Electronics Engineering
-            (VLSI Design and Technology), Electrical and Computer Engineering,
-            Mechanical Engineering, as well as an MBA program
+            ITS - The Education Group, with its diversified presence across
+            industries - including education, hospitality, medical, pharmacy,
+            health care, wellness, legal, philanthropy and CSR - has been in a
+            business leadership position for many decades. The company has
+            undergone tremendous growth and has scaled up its operations in a
+            big way over many years, in line with its global ambitions.
           </p>
           <img src="/ITS_Educational_group.jpg" alt="Image" />
           <p className="mt-5">
