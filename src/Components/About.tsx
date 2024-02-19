@@ -15,16 +15,7 @@ const About = () => {
             big way over many years, in line with its global ambitions.
           </p>
           <img src="/ITS_Educational_group.jpg" alt="Image" />
-          <p className="mt-5">
-            ITS Engineering College holds NBA accreditation, showcasing its
-            dedication to providing top-notch education. Approved by AICTE and
-            affiliated with AKTU-Lucknow, the college offers diverse programs,
-            such as B. Tech in Civil, Computer Science & Engineering (CSE),
-            CSE-Artificial Intelligence and Machine Learning, CSE-Data Science,
-            Electronics and Communication Engineering, Electronics Engineering
-            (VLSI Design and Technology), Electrical and Computer Engineering,
-            Mechanical Engineering, as well as an MBA program
-          </p>
+          <p className="mt-5"></p>
         </div>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
         <div className="prose max-w-screen-lg mx-4">
@@ -47,7 +38,7 @@ const About = () => {
             alt=""
             className="mt-8 mb-8"
           />
-          <p>
+          <p className="text-justify mt-5 mb-5">
             Operating with excellence in various disciplines, including
             Information Technology, Engineering, Management, Dental, Pharmacy,
             and Physiotherapy, the ITS Education Group has been a prominent

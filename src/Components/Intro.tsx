@@ -69,7 +69,7 @@ const Intro = () => {
           </Link>
         </div>
         <div className="flex space-x-5 text-2xl text-red-800 mt-4 items-center lg:justify-start justify-center">
-          <Link to="https://twitter.com/icac3n" aria-label="icac3n twitter">
+          <Link to="https://twitter.com/ITSengggn/" aria-label="icac3n twitter">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -104,7 +104,7 @@ const Intro = () => {
             </svg>
           </Link>
           <Link
-            to="https://www.facebook.com/IEEE.ICAC3N.21"
+            to="https://www.facebook.com/ITSengggn?mibextid=ZbWKwL"
             aria-label="icac3n facebook"
           >
             <svg
@@ -123,10 +123,7 @@ const Intro = () => {
               </g>
             </svg>
           </Link>
-          <Link
-            to="mailto:vishnu.sharma@galgotiacollege.edu"
-            aria-label="icac3n mail"
-          >
+          <Link to="mailto:dean.cse@its.edu.in" aria-label="icac3n mail">
             <svg
               stroke="currentColor"
               fill="currentColor"

@@ -81,7 +81,10 @@ const Footer = () => {
             </p>
           </span>
           <div className="flex mt-4 space-x-6 text-2xl text-white sm:justify-center sm:mt-0">
-            <Link to="https://twitter.com/icac3n" aria-label="icac3n twitter">
+            <Link
+              to="https://twitter.com/ITSengggn/"
+              aria-label="icac3n twitter"
+            >
               <svg
                 stroke="currentColor"
                 fill="currentColor"
@@ -116,7 +119,7 @@ const Footer = () => {
               </svg>
             </Link>
             <Link
-              to="https://www.facebook.com/IEEE.ICAC3N.21"
+              to="https://www.facebook.com/ITSengggn?mibextid=ZbWKwL"
               aria-label="icac3n facebook"
             >
               <svg
@@ -135,10 +138,7 @@ const Footer = () => {
                 </g>
               </svg>
             </Link>
-            <Link
-              to="mailto:vishnu.sharma@galgotiacollege.edu"
-              aria-label="icac3n mail"
-            >
+            <Link to="mailto:dean.cse@its.edu.in" aria-label="icac2n mail">
               <svg
                 stroke="currentColor"
                 fill="currentColor"
