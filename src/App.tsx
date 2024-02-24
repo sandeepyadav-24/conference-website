@@ -9,6 +9,9 @@ import Committee from "./Components/Committee";
 import CallForPapers from "./Components/CallForPapers";
 import Register from "./Components/Register";
 import Contact from "./Components/Contact";
+import AdvisoryBoard from "./Components/AdvisoryBoard";
+import TechnicalProgram from "./Components/TechnicalProgram ";
+import OrganizingComittee from "./Components/OrganizingComittee ";
 
 const App = () => {
   return (
@@ -21,6 +24,19 @@ const App = () => {
         <Route path="/speakers" element={<Speakers />}></Route>
         <Route path="/committee" element={<Committee />}></Route>
         <Route path="/call-for-papers" element={<CallForPapers />}></Route>
+        <Route
+          path="/committee/advisory-board"
+          element={<AdvisoryBoard />}
+        ></Route>
+
+        <Route
+          path="/committee/technical-program-committee"
+          element={<TechnicalProgram />}
+        ></Route>
+        <Route
+          path="/committee/organizing-committee"
+          element={<OrganizingComittee />}
+        ></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
