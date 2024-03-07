@@ -15,7 +15,7 @@ const Footer = () => {
             </a>
             <p className="my-4 max-w-xs text-white">
               International Conference on Advances in Computing, Communication
-              Control and Networking (ICAC2N–24)
+              and Networking (ICAC2N–24)
             </p>
             <div className="w-fit bg-gray-50 flex justify-center items-center pl-3 pr-4 pt-4 pb-3 rounded-md">
               <img
