@@ -54,7 +54,7 @@ const Register = () => {
             <div>
               <a
                 className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-                href="/documents/PAPER_ID_ICAC3N23.docx"
+                href="https://drive.google.com/uc?export=download&id=1YEBtFSi2ltpGdWDsIx6mbKeoituR120c"
               >
                 Download Docx File
                 <svg
@@ -74,7 +74,7 @@ const Register = () => {
             <div>
               <a
                 className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-                href="/documents/PAPER_ID_ICAC3N23.pdf"
+                href="https://drive.google.com/uc?export=download&id=1T_RSbf-zgpgmF9NN_XABuo9PqGVcZ1gX   "
               >
                 Download PDF File
                 <svg
@@ -104,7 +104,7 @@ const Register = () => {
             <div>
               <a
                 className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-                href="/documents/SamplePPTICAC3N-2023.pptx"
+                href="https://drive.google.com/uc?export=download&id=1uyYBvpUvgxXwd3pRZCh0_J-Rlx--WAHj"
               >
                 Download PPTX File
                 <svg
