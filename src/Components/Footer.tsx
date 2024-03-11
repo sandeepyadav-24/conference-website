@@ -25,7 +25,7 @@ const Footer = () => {
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          {/**<div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <h2 className="mb-4 font-semibold uppercase text-white underline">
                 Important
@@ -66,7 +66,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
         <hr className="my-3 border-red-400 sm:mx-auto dark:border-gray-700" />
         <div className="sm:flex sm:items-center sm:justify-between">

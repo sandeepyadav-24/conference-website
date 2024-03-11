@@ -12,6 +12,7 @@ import Contact from "./Components/Contact";
 import AdvisoryBoard from "./Components/AdvisoryBoard";
 import TechnicalProgram from "./Components/TechnicalProgram ";
 import OrganizingComittee from "./Components/OrganizingComittee ";
+import Direct from "./Components/Direct";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
         ></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/extra" element={<Direct />}></Route>
       </Routes>
       <Footer />
     </Router>

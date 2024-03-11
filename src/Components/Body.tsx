@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+//import { Link } from "react-router-dom";
 const Body = () => {
   return (
     <div className="flex flex-col space-y-5">
@@ -79,18 +79,18 @@ const Body = () => {
         </div>
         <div id="important" className="lg:col-span-1 col-span-full">
           <div className="w-full lg:w-min-sm">
-            <div className="mt-5 p-4 rounded-t-md bg-gray-200 border-l-4 border-red-600 w-full lg:max-w-sm flex justify-between items-center">
+            {/**<div className="mt-5 p-4 rounded-t-md bg-gray-200 border-l-4 border-red-600 w-full lg:max-w-sm flex justify-between items-center">
               <p className="font-semibold text-lg">Inauguration Brochure</p>
-              <Link
+              {/**<Link
                 to="/documents/inauguration_schedule.pdf"
                 className="inline-flex items-center justify-center px-3 py-2 text-base font-medium text-center text-white rounded-lg bg-red-600 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
               >
                 Download
-              </Link>
-            </div>
-            <div className="relative h-60 p-4 rounded-b-md bg-gray-100 w-full lg:max-w-sm lg:max-h-80 lg:overflow-y-auto overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-thumb-rounded-md scrollbar-track-gray-200"></div>
+              </Link> }
+            </div> */}
+            {/** <div className="relative h-60 p-4 rounded-b-md bg-gray-100 w-full lg:max-w-sm lg:max-h-80 lg:overflow-y-auto overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-thumb-rounded-md scrollbar-track-gray-200"></div> */}
           </div>
-          <div className="w-full lg:w-min-sm">
+          {/**<div className="w-full lg:w-min-sm">
             <div className="mt-5 p-4 rounded-t-md bg-gray-200 border-l-4 border-red-600 w-full lg:max-w-sm">
               <p className="font-semibold text-lg">Important Notices</p>
             </div>
@@ -132,7 +132,7 @@ const Body = () => {
                 </div>
               </Link>
             </div>
-          </div>
+          </div> */}
           <div className="w-full mx-auto">
             <div className="mt-5 p-4 rounded-t-md bg-gray-200  border-l-4 border-red-600 w-full lg:max-w-sm lg:min-w-lg">
               <p className="font-semibold text-lg">Important Dates</p>
@@ -143,7 +143,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Paper Submission Starts</p>
                     <p className="font-light text-sm "></p>
-                    <p className="text-sm text-gray-700 ">10/03/2024</p>
+                    <p className="text-sm text-gray-700 ">15/03/2024</p>
                   </div>
                   <div className="rounded-full bg-blue-800 font-semibold bg-opacity-20">
                     <p className="px-2 py-0.5 text-xs text-blue-800">New</p>
@@ -235,7 +235,7 @@ const Body = () => {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-min-sm">
+          {/**<div className="w-full lg:w-min-sm">
             <div className="mt-5 p-4 rounded-t-md bg-gray-200 border-l-4 border-red-600 w-full lg:max-w-sm">
               <p className="font-semibold text-lg">Important Downloads</p>
             </div>
@@ -321,7 +321,7 @@ const Body = () => {
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
               </Link>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

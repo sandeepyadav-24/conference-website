@@ -18,14 +18,15 @@ const Intro = () => {
         <div className=" lg:hidden flex items-center space-x-2 lg:justify-start justify-center">
           <div className="text-red-800">
             <p className="font-semibold text">
-              Conference Record Number #60023
+              Conference Record Number {/**#60023 */}
             </p>
           </div>
         </div>
         <div className=" lg:hidden flex items-center space-x-2 lg:justify-start justify-center">
           <div className="text-red-800">
             <p className="font-semibold text">
-              IEEE XPLORE COMPLIANT ISBN No. <span>979-8-3503-3086-1</span>
+              IEEE XPLORE COMPLIANT ISBN No.{" "}
+              {/**<span>979-8-3503-3086-1</span> */}
             </p>
           </div>
         </div>
@@ -36,14 +37,15 @@ const Intro = () => {
         <div className="hidden lg:flex items-center space-x-2 lg:justify-start justify-center">
           <div className="text-red-800">
             <p className="font-semibold text">
-              Conference Record Number #60023
+              Conference Record Number {/**#60023 */}
             </p>
           </div>
         </div>
         <div className="hidden lg:flex items-center space-x-2 lg:justify-start justify-center">
           <div className="text-red-800">
             <p className="font-semibold text">
-              IEEE XPLORE COMPLIANT ISBN No. <span>979-8-3503-3086-1</span>
+              IEEE XPLORE COMPLIANT ISBN No.{" "}
+              {/**<span>979-8-3503-3086-1</span> */}
             </p>
           </div>
         </div>

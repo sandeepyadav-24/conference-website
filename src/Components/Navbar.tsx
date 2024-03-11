@@ -45,20 +45,18 @@ const Navbar = () => {
             <span className="mx-2">•</span>
             <span className="mx-4">Conference Record Number #60023</span>
             <span className="mx-2">•</span>
-            <span className="mx-4">
-              IEEE XPLORE COMPLIANT ISBN No. 979-8-3503-3086-1
-            </span>
+            <span className="mx-4">IEEE XPLORE COMPLIANT ISBN No.</span>
             <span className="mx-2">•</span>
             <span className="mx-4">
               1st International Conference on Advances in Computing,
               Communication Control and Networking- ICAC3N
             </span>
             <span className="mx-2">•</span>
-            <span className="mx-4">Conference Record Number #60023</span>
+            //<span className="mx-4">Conference Record Number #60023</span>
             <span className="mx-2">•</span>
-            <span className="mx-4">
-              IEEE XPLORE COMPLIANT ISBN No. 979-8-3503-3086-1
-            </span>
+            {/**<span className="mx-4">
+              IEEE XPLORE COMPLIANT ISBN No. 
+            </span> */}
             <span className="mx-2">•</span>
           </div>
         </div>
@@ -89,7 +87,7 @@ const Navbar = () => {
 
             <div className="flex flex-row gap-1 justify-normal items-center">
               <Link
-                to="https://www.google.com/"
+                to="/extra"
                 className="px-4 h-fit py-2 bg-sky-600 mx-2 rounded-lg  md:block text-white cursor-pointer "
               >
                 Submit Paper

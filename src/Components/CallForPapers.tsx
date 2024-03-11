@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const CallForPapers = () => {
   return (
     <div>
@@ -72,7 +74,8 @@ const CallForPapers = () => {
               className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
               href="https://cmt3.research.microsoft.com/ICAC3N2023"
             >
-              Submit a Paper
+              <Link to="/extra">Submit a Paper</Link>
+
               <svg
                 className="w-5 h-5 ml-2 -mr-1"
                 fill="currentColor"
