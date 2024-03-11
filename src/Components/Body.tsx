@@ -72,8 +72,12 @@ const Body = () => {
           </p>
           <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
           <div className="flex-col items-center justify-center text-center rounded-lg px-2 py-7">
-            <div className="inline-flex text-3xl font-extrabold lg:text-6xl md:text-4xl">
-              9,138
+            <div >
+          
+            <img src="https://hitwebcounter.com/counter/counter.php?page=11925405&style=0019&nbdigits=5&type=page&initCount=0" title="Counter Widget" alt="Visit counter For Websites" className="scale-150 mx-auto w-36"  />                                                  
+              <br />
+              <p className="font-semibold text-2xl">Visitors</p>                                                              
+                                                                                             
             </div>
           </div>
         </div>
