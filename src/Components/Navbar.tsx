@@ -1,65 +1,44 @@
 import { Link } from "react-router-dom";
+import Marquee from "react-fast-marquee";
 const Navbar = () => {
   return (
     <div>
       {/*   /////////////////////////////////             AMrquee ///////////////////////////////*/}
       <div className="py-1 px-3 bg-stone-800">
-        <div className="relative flex overflow-x-hidden text-white text-sm">
-          <div className="animate-marquee whitespace-nowrap">
-            <span className="mx-4">
-              1st International Conference on Advances in Computing,
-              Communication Control and Networking- ICAC3N
-            </span>
-            <span className="mx-2">•</span>
-            <span className="mx-4">
-              1st International Conference on Advances in Computing,
-              Communication and Networking- ICAC2N
-            </span>
-            <span className="mx-2">•</span>
-            <span className="mx-4">
-              1st International Conference on Advances in Computing,
-              Communication and Networking- ICAC2N
-            </span>
-            <span className="mx-2">•</span>
-            <span className="mx-4">
-              1st International Conference on Advances in Computing,
-              Communication and Networking- ICAC2N
-            </span>
-            <span className="mx-2">•</span>
-            <span className="mx-4">
-              1st International Conference on Advances in Computing,
-              Communication and Networking- ICAC2N
-            </span>
-            <span className="mx-2">•</span>
-            <span className="mx-4">
-              1st International Conference on Advances in Computing,
-              Communication and Networking- ICAC2N
-            </span>
-            <span className="mx-2">•</span>
-          </div>
-          <div className="absolute top-0 animate-marquee2 whitespace-nowrap">
-            <span className="mx-4">
+        <Marquee direction="left" className="text-sm text-white" speed = {100}>
+          <div>
+          <span className="mx-4">
               1st International Conference on Advances in Computing,
               Communication Control and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
-            <span className="mx-4">Conference Record Number #60023</span>
-            <span className="mx-2">•</span>
-            <span className="mx-4">IEEE XPLORE COMPLIANT ISBN No.</span>
+            <span className="mx-4">
+              1st International Conference on Advances in Computing,
+              Communication and Networking- ICAC2N
+            </span>
             <span className="mx-2">•</span>
             <span className="mx-4">
               1st International Conference on Advances in Computing,
-              Communication Control and Networking- ICAC3N
+              Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
-            //<span className="mx-4">Conference Record Number #60023</span>
+            <span className="mx-4">
+              1st International Conference on Advances in Computing,
+              Communication and Networking- ICAC2N
+            </span>
             <span className="mx-2">•</span>
-            {/**<span className="mx-4">
-              IEEE XPLORE COMPLIANT ISBN No. 
-            </span> */}
+            <span className="mx-4">
+              1st International Conference on Advances in Computing,
+              Communication and Networking- ICAC2N
+            </span>
+            <span className="mx-2">•</span>
+            <span className="mx-4">
+              1st International Conference on Advances in Computing,
+              Communication and Networking- ICAC2N
+            </span>
             <span className="mx-2">•</span>
           </div>
-        </div>
+        </Marquee>
       </div>
       {/* ////////////////////////////////// Navbar UpData////////////////////////////////////*/}
       <nav className="bg-red-800">
