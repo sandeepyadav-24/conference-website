@@ -19,10 +19,10 @@ const OrganizingComittee = () => {
           <ul className="mb-5 pl-6.5 list-disc">
             <li
               itemProp="member"
-              id="Shri Suneel Galgotia"
+              id="Dr. R. P. Chadha"
               className="pl-1.5 mt-2 mb-2"
             >
-              <span itemProp="name">Shri Suneel Galgotia</span>,{" "}
+              <span itemProp="name">Dr. R. P. Chadha</span>,{" "}
               <span itemProp="jobTitle">Chairman</span>
             </li>
             <li
@@ -31,7 +31,7 @@ const OrganizingComittee = () => {
               className="pl-1.5 mt-2 mb-2"
             >
               <span itemProp="name">Dr. Dhruv Galgotia</span>,{" "}
-              <span itemProp="jobTitle">CEO</span>
+              <span itemProp="jobTitle">Vice Chairman</span>
             </li>
           </ul>
         </div>
@@ -47,18 +47,26 @@ const OrganizingComittee = () => {
             <li
               itemProp="member"
               className="pl-1.5 mt-2 mb-2"
-              id="Gp. Capt. (R) Dr. P K Chopra, VSM"
+              id="Shri B. K. Arora, Secretary, ITSEC"
             >
-              <span itemProp="name">Gp. Capt. (R) Dr. P K Chopra, VSM</span>,{" "}
-              <span itemProp="jobTitle">Director General</span>
+              <span itemProp="name">Shri B. K. Arora</span>,{" "}
+              <span itemProp="jobTitle">Secretary, ITSEC</span>
             </li>
             <li
               itemProp="member"
               className="pl-1.5 mt-2 mb-2"
-              id="Prof. (Dr.) S.N. Singh"
+              id="Prof. (Dr.) J. P. Pandey"
             >
-              <span itemProp="name">Prof. (Dr.) S.N. Singh</span>,{" "}
-              <span itemProp="jobTitle">ABV-IIITM, Gwalior</span>
+              <span itemProp="name">Prof. (Dr.) J. P. Pandey</span>,{" "}
+              <span itemProp="jobTitle">Vice Chancellor, AKTU</span>
+            </li>
+            <li
+              itemProp="member"
+              className="pl-1.5 mt-2 mb-2"
+              id="Prof. (Dr.) S. N. Singh, ABV-IIITM Gwalior"
+            >
+              <span itemProp="name">Prof. (Dr.) S. N. Singh</span>,{" "}
+              <span itemProp="jobTitle">ABV-IIITM Gwalior</span>
             </li>
           </ul>
         </div>
@@ -71,13 +79,9 @@ const OrganizingComittee = () => {
             Conference General Chair
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. (Dr.) Avadhesh Kumar">
-              <span itemProp="name">Prof. (Dr.) Avadhesh Kumar</span>,{" "}
-              <span itemProp="jobTitle">PVC, GU</span>
-            </li>
-            <li itemProp="member" id="Prof.(Dr.) MOHD. ASIM QADRI">
-              <span itemProp="name">Prof.(Dr.) MOHD. ASIM QADRI</span>,{" "}
-              <span itemProp="jobTitle">Director, GCET</span>
+            <li itemProp="member" id="Prof. (Dr.) Mayank Garg">
+              <span itemProp="name">Prof. (Dr.) Mayank Garg</span>,{" "}
+              <span itemProp="jobTitle">Director, ITSEC</span>
             </li>
             <li itemProp="member" id="Prof. (Dr.) S. K. Singh">
               <span itemProp="name">Prof. (Dr.) S. K. Singh</span>,{" "}
@@ -96,7 +100,7 @@ const OrganizingComittee = () => {
           <ul className="mb-5 pl-6.5 list-disc">
             <li itemProp="member" id="Prof. (Dr.) Vishnu Sharma">
               <span itemProp="name">Prof. (Dr.) Vishnu Sharma</span>,{" "}
-              <span itemProp="jobTitle">HOD, CSE, GCET</span>
+              <span itemProp="jobTitle">Dean, CSE, ITSEC</span>
             </li>
           </ul>
         </div>
@@ -111,11 +115,11 @@ const OrganizingComittee = () => {
           <ul className="mb-5 pl-6.5 list-disc">
             <li itemProp="member" id="Prof. (Dr.) Vishnu Sharma">
               <span itemProp="name">Prof. (Dr.) Vishnu Sharma</span>,{" "}
-              <span itemProp="jobTitle">HOD, CSE, GCET</span>
+              <span itemProp="jobTitle">Dean, CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Manjeet Singh">
-              <span itemProp="name">Prof. (Dr.) Manjeet Singh</span>,{" "}
-              <span itemProp="jobTitle">GCBK, Sonipat</span>
+            <li itemProp="member" id="Prof. (Dr.) Ashish Gupta">
+              <span itemProp="name">Prof. (Dr.) Ashish Gupta</span>,{" "}
+              <span itemProp="jobTitle">HOD, CSE, ITSEC</span>
             </li>
           </ul>
         </div>
@@ -128,34 +132,34 @@ const OrganizingComittee = () => {
             Technical Program Chairs
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. (Dr.) Sachin Kumar">
-              <span itemProp="name">Prof. (Dr.) Sachin Kumar</span>,{" "}
-              <span itemProp="jobTitle">Dean (R &amp;D), CSE, GCET</span>
+            <li itemProp="member" id="Prof. (Dr.) Ashish Gupta">
+              <span itemProp="name">Prof. (Dr.) Ashish Gupta</span>,{" "}
+              <span itemProp="jobTitle">HOD, CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) S. K. Singh">
-              <span itemProp="name">Prof. (Dr.) S. K. Singh</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. (Dr.) Nitin Mishra">
+              <span itemProp="name">Prof. (Dr.) Nitin Mishra</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Jaya Sinha">
-              <span itemProp="name">Prof. (Dr.) Jaya Sinha</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. (Dr.) Kuldeep Malik">
+              <span itemProp="name">Prof. (Dr.) Kuldeep Malik</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) S. K. Singh">
-              <span itemProp="name">Prof. (Dr.) S. K. Singh</span>,{" "}
-              <span itemProp="jobTitle">HOD-IT, GCET</span>
+            <li itemProp="member" id="Prof. (Dr.) Vrinda Sachdeva">
+              <span itemProp="name">Prof. (Dr.) Vrinda Sachdeva</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Vinit Kumar">
-              <span itemProp="name">Prof. (Dr.) Vinit Kumar</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. (Dr.) Arun Kumar">
+              <span itemProp="name">Prof. (Dr.) Arun Kumar</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Sachi Gupta">
+            {/**<li itemProp="member" id="Prof. (Dr.) Sachi Gupta">
               <span itemProp="name">Prof. (Dr.) Sachi Gupta</span>,{" "}
               <span itemProp="jobTitle">CSE, GCET</span>
             </li>
             <li itemProp="member" id="Prof. (Dr.) Arun Kumar">
               <span itemProp="name">Prof. (Dr.) Arun Kumar</span>,{" "}
               <span itemProp="jobTitle">CSE, GCET</span>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div itemProp="department">
@@ -167,25 +171,29 @@ const OrganizingComittee = () => {
             Organizing Committee
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. (Dr.) Ratna Nitin Patil">
-              <span itemProp="name">Prof. (Dr.) Ratna Nitin Patil</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. (Dr.) Vrinda Sachdeva">
+              <span itemProp="name">Prof. (Dr.) Vrinda Sachdeva</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Youddha Beer Singh">
-              <span itemProp="name">Prof. (Dr.) Youddha Beer Singh</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Tarun Chug">
+              <span itemProp="name">Prof. Tarun Chug</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Mayank Dixit">
-              <span itemProp="name">Prof. (Dr.) Mayank Dixit</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Abhishek Shivhare">
+              <span itemProp="name">Prof. Abhishek Shivhare</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Aparna Singh">
-              <span itemProp="name">Prof. Aparna Singh</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Yogesh Sharma">
+              <span itemProp="name">Prof. Yogesh Sharma</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Ravindra Kumar">
-              <span itemProp="name">Prof. Ravindra Kumar</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Prachi Jain">
+              <span itemProp="name">Prof. Prachi Jain</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
+            </li>
+            <li itemProp="member" id="Prof. Akansha Sharma">
+              <span itemProp="name">Prof. Akansha Sharma</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
           </ul>
         </div>
@@ -198,21 +206,25 @@ const OrganizingComittee = () => {
             Publication Committee
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. (Dr.) Vandna Rani Verma">
-              <span itemProp="name">Prof. (Dr.) Vandna Rani Verma</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Bhupendra Bhadana">
+              <span itemProp="name">Prof. Bhupendra Bhadana</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Manjeet Singh">
-              <span itemProp="name">Prof. (Dr.) Manjeet Singh</span>,{" "}
-              <span itemProp="jobTitle">GCBK, Sonipat</span>
+            <li itemProp="member" id="Prof. Ashish Shrivastava">
+              <span itemProp="name">Prof. Ashish Shrivastava</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Inderpreet Kaur">
-              <span itemProp="name">Prof. (Dr.) Inderpreet Kaur</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Shomil Bansal">
+              <span itemProp="name">Prof. Shomil Bansal</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Kavita Sharma">
-              <span itemProp="name">Prof. (Dr.) Kavita Sharma</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Rakhi Puri">
+              <span itemProp="name">Prof. Rakhi Puri</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
+            </li>
+            <li itemProp="member" id="Prof. Shailja Vershney">
+              <span itemProp="name">Prof. Shailja Vershney</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
           </ul>
         </div>
@@ -225,13 +237,21 @@ const OrganizingComittee = () => {
             Publicity Committee
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. Manish Sharma">
-              <span itemProp="name">Prof. Manish Sharma</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. (Dr.) Nitin Mishra">
+              <span itemProp="name">Prof. (Dr.) Nitin Mishra</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Mukesh Kumar Singh">
-              <span itemProp="name">Prof. Mukesh Kumar Singh</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Manik Chandra">
+              <span itemProp="name">Prof. Manik Chandra</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
+            </li>
+            <li itemProp="member" id="Prof. Ghanshyam Yadav">
+              <span itemProp="name">Prof. Ghanshyam Yadav</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
+            </li>
+            <li itemProp="member" id="Prof. Shomil Bansal">
+              <span itemProp="name">Prof. Shomil Bansal</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
           </ul>
         </div>
@@ -244,22 +264,17 @@ const OrganizingComittee = () => {
             Finance Committee
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. (Dr.) Aditya Dev Mishra">
-              <span itemProp="name">Prof. (Dr.) Aditya Dev Mishra</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Abhishek Shivhare">
+              <span itemProp="name">Prof. Abhishek Shivhare</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li
-              itemProp="member"
-              id="Prof. (Dr.) Krishan Kumar Saraswat, CSE, GCET"
-            >
-              <span itemProp="name">
-                Prof. (Dr.) Krishan Kumar Saraswat, CSE, GCET
-              </span>
-              , <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Yogesh Sharma, CSE, ITSEC">
+              <span itemProp="name">Prof. Yogesh Sharma</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. M. Chandraprabha">
-              <span itemProp="name">Prof. M. Chandraprabha</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Ashish Shrivastava">
+              <span itemProp="name">Prof. Ashish Shrivastava</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
           </ul>
         </div>
@@ -272,17 +287,17 @@ const OrganizingComittee = () => {
             Hospitality Committee
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. (Dr.) Rupali Khare">
-              <span itemProp="name">Prof. (Dr.) Rupali Khare</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Abhishek Shivhare">
+              <span itemProp="name">Prof. Abhishek Shivhare</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Ritu Dewan">
-              <span itemProp="name">Prof. Ritu Dewan</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Bhupendra Bhadana">
+              <span itemProp="name">Prof. Bhupendra Bhadana</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Mamta Narwaria">
-              <span itemProp="name">Prof. Mamta Narwaria</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Akansha Sharma">
+              <span itemProp="name">Prof. Akansha Sharma</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
           </ul>
         </div>
@@ -295,22 +310,22 @@ const OrganizingComittee = () => {
             Transport and Accommodation Committee
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. Rajiv Kumar Nath">
-              <span itemProp="name">Prof. Rajiv Kumar Nath</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Tarun Chug">
+              <span itemProp="name">Prof. Tarun Chug</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Ravikant Nirala">
-              <span itemProp="name">Prof. Ravikant Nirala</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Vijay Kumar Tiwari">
+              <span itemProp="name">Prof. Vijay Kumar Tiwari</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Pramit Samant">
-              <span itemProp="name">Prof. Pramit Samant</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Prashant Kumar">
+              <span itemProp="name">Prof. Prashant Kumar</span>,{" "}
+              <span itemProp="jobTitle">ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Mohit Chowdhary">
+            {/**<li itemProp="member" id="Prof. Mohit Chowdhary">
               <span itemProp="name">Prof. Mohit Chowdhary</span>,{" "}
               <span itemProp="jobTitle">CSE, GCET</span>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div itemProp="department">
@@ -322,21 +337,21 @@ const OrganizingComittee = () => {
             Website Committee
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. Ajeet Kumar Bhartee">
-              <span itemProp="name">Prof. Ajeet Kumar Bhartee</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Prachi Jain">
+              <span itemProp="name">Prof. Prachi Jain</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Mr. Hardik Prakash">
-              <span itemProp="name">Mr. Hardik Prakash</span>,{" "}
-              <span itemProp="jobTitle">CSE-AI Student, GCET</span>
+            <li itemProp="member" id="Prof. Monika">
+              <span itemProp="name">Prof. Monika</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Mr. Prakhar Shukla">
-              <span itemProp="name">Mr. Prakhar Shukla</span>,{" "}
-              <span itemProp="jobTitle">CSE-AI Student, GCET</span>
+            <li itemProp="member" id="Mr. Sandeep Yadav">
+              <span itemProp="name">Mr. Sandeep Yadav</span>,{" "}
+              <span itemProp="jobTitle">CSE Student, ITSEC</span>
             </li>
-            <li itemProp="member" id="Mr. Areeb ur Rub">
-              <span itemProp="name">Mr. Areeb ur Rub</span>,{" "}
-              <span itemProp="jobTitle">CSE-AI Student, GCET</span>
+            <li itemProp="member" id="Mr. Suyash Gautam">
+              <span itemProp="name">Mr. Suyash Gautam</span>,{" "}
+              <span itemProp="jobTitle">CSE-DS Student, ITSEC</span>
             </li>
           </ul>
         </div>
@@ -349,34 +364,50 @@ const OrganizingComittee = () => {
             Sponsorship/Media Committee
           </h2>
           <ul className="mb-5 pl-6.5 list-disc">
-            <li itemProp="member" id="Prof. (Dr.) Pallavi Goel">
-              <span itemProp="name">Prof. (Dr.) Pallavi Goel</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Manik Chandra">
+              <span itemProp="name">Prof. Manik Chandra</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Shikha Singh">
-              <span itemProp="name">Prof. Shikha Singh</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. Ghanshyam Yadav">
+              <span itemProp="name">Prof. Ghanshyam Yadav</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. Arti Ranjan">
-              <span itemProp="name">Prof. Arti Ranjan</span>,{" "}
-              <span itemProp="jobTitle">CSE, GCET</span>
+            <li itemProp="member" id="Prof. (Dr.) Arun Kumar">
+              <span itemProp="name">Prof. (Dr.) Arun Kumar</span>,{" "}
+              <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
             <li className="list-none">
               <h3 className="heading" itemProp="name">
                 Student Co-Ordinator s
               </h3>
               <ul>
-                <li itemProp="member" id="Mr. Raunak Gupta">
-                  <span itemProp="name">Mr. Raunak Gupta</span>,{" "}
-                  <span itemProp="jobTitle">CSE, GCET</span>
+                <li itemProp="member" id="Mr. Krish Verma">
+                  <span itemProp="name">Mr. Krish Verma</span>,{" "}
+                  <span itemProp="jobTitle">CSE Student, ITSEC</span>
                 </li>
-                <li itemProp="member" id="Mr. Yash Gupta">
-                  <span itemProp="name">Mr. Yash Gupta</span>,{" "}
-                  <span itemProp="jobTitle">CSE-AI, GCET</span>
+                <li itemProp="member" id="Mr. Vipul Upadhyay">
+                  <span itemProp="name">Mr. Vipul Upadhyay</span>,{" "}
+                  <span itemProp="jobTitle">CSE Student, ITSEC</span>
                 </li>
-                <li itemProp="member" id="Mr. Pratyaksh Kumar">
-                  <span itemProp="name">Mr. Pratyaksh Kumar</span>,{" "}
-                  <span itemProp="jobTitle">CSE, GCET</span>
+                <li itemProp="member" id="Ms. Vaishali Chaurasiya">
+                  <span itemProp="name">Ms. Vaishali Chaurasiya</span>,{" "}
+                  <span itemProp="jobTitle">CSE Student, ITSEC</span>
+                </li>
+                <li itemProp="member" id="Mr. Yatin Kasnyal">
+                  <span itemProp="name">Mr. Yatin Kasnyal</span>,{" "}
+                  <span itemProp="jobTitle">CSE Student, ITSEC</span>
+                </li>
+                <li itemProp="member" id="Mr. Devraj Singh">
+                  <span itemProp="name">Mr. Devraj Singh</span>,{" "}
+                  <span itemProp="jobTitle">CSE Student, ITSEC</span>
+                </li>
+                <li itemProp="member" id="Ms. Nirbhika Khajuriya">
+                  <span itemProp="name">Ms. Nirbhika Khajuriya</span>,{" "}
+                  <span itemProp="jobTitle">CSE Student, ITSEC</span>
+                </li>
+                <li itemProp="member" id="Ms. Prinshi Paliwal">
+                  <span itemProp="name">Ms. Prinshi Paliwal</span>,{" "}
+                  <span itemProp="jobTitle">CSE Student, ITSEC</span>
                 </li>
               </ul>
             </li>
