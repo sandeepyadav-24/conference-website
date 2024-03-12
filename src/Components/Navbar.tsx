@@ -21,7 +21,12 @@ const Navbar = () => {
               Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
-            <span className="mx-4">
+
+            {/**<span className="mx-4">
+              1st International Conference on Advances in Computing,
+              Communication and Networking- ICAC2N
+            </span>
+            <span className="mx-2">•</span><span className="mx-4">
               1st International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
@@ -30,12 +35,7 @@ const Navbar = () => {
               1st International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
-            <span className="mx-2">•</span>
-            <span className="mx-4">
-              1st International Conference on Advances in Computing,
-              Communication and Networking- ICAC2N
-            </span>
-            <span className="mx-2">•</span>
+            <span className="mx-2">•</span> */}
           </div>
           <div className="absolute top-0 animate-marquee2 whitespace-nowrap">
             <span className="mx-4">
@@ -43,7 +43,7 @@ const Navbar = () => {
               Communication Control and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
-            <span className="mx-4">Conference Record Number #60023</span>
+            <span className="mx-4">Conference Record Number </span>
             <span className="mx-2">•</span>
             <span className="mx-4">IEEE XPLORE COMPLIANT ISBN No.</span>
             <span className="mx-2">•</span>
