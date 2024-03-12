@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Intro = () => {
   return (
-    <div className="grid grid-cols-5 gap-5 items-center justify-center lg:text-start text-center mt-2">
+    <div className="flex items-center lg:text-start text-center mt-2">
       <div className="col-span-full lg:col-span-2 flex flex-col justify-between h-full self-start gap-2">
         <div className="flex items-center space-x-2 lg:justify-start justify-center">
           <p className="text-red-800 font-semibold">
@@ -145,13 +145,13 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="col-span-full lg:col-span-2 flex flex-col justify-between h-full self-start gap-2 ml-40 w-[300px]">
+      <div className="col-span-full lg:col-span-2 flex flex-col justify-between h-full self-start gap-2 ml-40 w-[700px]">
         <div className="col-span-full lg:col-span-3 flex h-full w-full px-1 rounded-lg overflow-hidden">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
             autoplay={{
-              delay: 1000,
+              delay: 3000,
               disableOnInteraction: false,
             }}
             pagination={{
@@ -160,16 +160,36 @@ const Intro = () => {
             modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide>
+            <SwiperSlide >
               <div
-                className=" h-full flex-none w-[400px] left-0 right-0 transform-none transition-transform ease-in-out"
+                className=" w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
                 draggable="false"
               >
                 <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
                   <img
                     draggable="false"
                     alt=""
-                    src="https://itsengg.edu.in/Awards/VC%20sir%20post%20-1-.png"
+                    src="image1.png"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent "
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                draggable="false"
+                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="image2.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
@@ -189,27 +209,7 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="https://itsengg.edu.in/photoset/Infrastrcuture/.21%20bhaba%20seminar%20hall%20at%20its%20engineering%20college%20greater%20noida.jpg_m.jpg"
-                    width="3000"
-                    height="2000"
-                    decoding="async"
-                    data-nimg="1"
-                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div
-                draggable="false"
-                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
-              >
-                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
-                  <img
-                    draggable="false"
-                    alt=""
-                    src="https://itsengg.edu.in/photoset/PhotoSet%201/.life-time-achievement-award.jpg_m.jpg"
+                    src="image3.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"

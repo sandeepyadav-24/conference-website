@@ -16,7 +16,7 @@ const Body = () => {
             conference covers a wide range of topics such as cloud computing,
             AI, wireless communication systems, IoT, and cybersecurity.
           </p>
-          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 opacity-10" />
           <h2 className="font-bold text-lg text-center lg:text-2xl lg:text-start my-3">
             About College
           </h2>
@@ -43,7 +43,7 @@ const Body = () => {
             Finance, Human Resource, Operations, International Business and
             Information Technology.
           </p>
-          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 opacity-10" />
           <h2 className="font-bold text-lg text-center lg:text-2xl lg:text-start my-3">
             About Department of Computer Science
           </h2>
@@ -70,10 +70,12 @@ const Body = () => {
             forecasting, fraud detection, and decision-making amongst many other
             uses.
           </p>
-          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
+          <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 opacity-10" />
           <div className="flex-col items-center justify-center text-center rounded-lg px-2 py-7">
-            <div className="inline-flex text-3xl font-extrabold lg:text-6xl md:text-4xl">
-              9,138
+            <div>
+            <img src="https://hitwebcounter.com/counter/counter.php?page=11925405&style=0019&nbdigits=5&type=page&initCount=0" title="Counter Widget" alt="Visit counter For Websites" className="scale-150 mx-auto w-36"  />                                                  
+              <br />
+              <p className="font-semibold text-2xl">Visitors</p>                                                                                                                                           
             </div>
           </div>
         </div>
