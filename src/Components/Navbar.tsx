@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="animate-marquee whitespace-nowrap">
             <span className="mx-4">
               1st International Conference on Advances in Computing,
-              Communication Control and Networking- ICAC3N
+              Communication and Networking- ICAC3N
             </span>
             <span className="mx-2">•</span>
             <span className="mx-4">
@@ -41,7 +41,7 @@ const Navbar = () => {
           <div className="absolute top-0 animate-marquee2 whitespace-nowrap">
             <span className="mx-4">
               1st International Conference on Advances in Computing,
-              Communication Control and Networking- ICAC2N
+              Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
             <span className="mx-4">Conference Record Number #63387 </span>
@@ -50,7 +50,7 @@ const Navbar = () => {
             <span className="mx-2">•</span>
             <span className="mx-4">
               1st International Conference on Advances in Computing,
-              Communication Control and Networking- ICAC3N
+              Communication and Networking- ICAC3N
             </span>
             <span className="mx-2">•</span>
             //<span className="mx-4">Conference Record Number #63387</span>
@@ -88,7 +88,7 @@ const Navbar = () => {
 
             <div className="flex flex-row gap-1 justify-normal items-center">
               <Link
-                to="/extra"
+                to="https://cmt3.research.microsoft.com/ICAC2N2024"
                 className="px-4 h-fit py-2 bg-sky-600 mx-2 rounded-lg  md:block text-white cursor-pointer "
               >
                 Submit Paper
