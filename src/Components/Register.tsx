@@ -137,31 +137,37 @@ const Register = () => {
             <tbody>
               <tr>
                 <td className="p-3">Account Number</td>
-                <td className="p-3">Nill</td>
+                <td className="p-3">85563060000038</td>
               </tr>
               <tr>
                 <td className="p-3">Account Name</td>
-                <td className="p-3">Nill</td>
+                <td className="p-3">ITS Engineering College</td>
               </tr>
               <tr>
                 <td className="p-3">IFSC Code</td>
-                <td className="p-3">Nill</td>
+                <td className="p-3">CNRB0018556</td>
               </tr>
               <tr>
                 <td className="p-3">Swift Code</td>
-                <td className="p-3">Nill</td>
+                <td className="p-3"></td>
               </tr>
               <tr>
                 <td className="p-3">Bank Name</td>
-                <td className="p-3">Nill</td>
+                <td className="p-3">Canara Bank</td>
               </tr>
               <tr>
                 <td className="p-3">Account Type</td>
-                <td className="p-3">Nill</td>
+                <td className="p-3"></td>
               </tr>
               <tr>
                 <td className="p-3">Bank Address</td>
-                <td className="p-3">Nill</td>
+                <td className="p-3">
+                  Ghaziabad Main, Ghaziabad, Uttar Pradesh 201001
+                </td>
+              </tr>
+              <tr>
+                <td className="p-3">GST No.</td>
+                <td className="p-3">09AAATD0730CIZD</td>
               </tr>
             </tbody>
           </table>

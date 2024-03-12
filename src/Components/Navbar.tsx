@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import DropDown from "./DropDownButton";
 const Navbar = () => {
   return (
     <div>
@@ -118,7 +119,7 @@ const Navbar = () => {
               </div>
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <Link to="/committee">COMMITTEE</Link>
+                  <DropDown />
                 </li>
               </div>
               <div className="md:w-auto w-full">
