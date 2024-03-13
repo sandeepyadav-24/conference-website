@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
 import DropDown from "./DropDownButton";
+import Marquee from "react-fast-marquee";
 const Navbar = () => {
   return (
     <div>
-      {/*   /////////////////////////////////             AMrquee ///////////////////////////////*/}
+      {/*   ///////////////////////////////// AMrquee ///////////////////////////////*/}
       <div className="py-1 px-3 bg-stone-800">
         <div className="relative flex overflow-x-hidden text-white text-sm">
-          <div className="animate-marquee whitespace-nowrap">
+          <Marquee speed = {80}>
             <span className="mx-4">
               1st International Conference on Advances in Computing,
-              Communication and Networking- ICAC3N
+              Communication Control and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
             <span className="mx-4">
@@ -23,11 +24,7 @@ const Navbar = () => {
             </span>
             <span className="mx-2">•</span>
 
-            {/**<span className="mx-4">
-              1st International Conference on Advances in Computing,
-              Communication and Networking- ICAC2N
-            </span>
-            <span className="mx-2">•</span><span className="mx-4">
+            <span className="mx-4">
               1st International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
@@ -36,30 +33,13 @@ const Navbar = () => {
               1st International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
-            <span className="mx-2">•</span> */}
-          </div>
-          <div className="absolute top-0 animate-marquee2 whitespace-nowrap">
+            <span className="mx-2">•</span>
             <span className="mx-4">
               1st International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
-            </span>
+             </span>
             <span className="mx-2">•</span>
-            <span className="mx-4">Conference Record Number #63387 </span>
-            <span className="mx-2">•</span>
-            <span className="mx-4">IEEE XPLORE COMPLIANT ISBN No.</span>
-            <span className="mx-2">•</span>
-            <span className="mx-4">
-              1st International Conference on Advances in Computing,
-              Communication and Networking- ICAC3N
-            </span>
-            <span className="mx-2">•</span>
-            //<span className="mx-4">Conference Record Number #63387</span>
-            <span className="mx-2">•</span>
-            {/**<span className="mx-4">
-              IEEE XPLORE COMPLIANT ISBN No. 
-            </span> */}
-            <span className="mx-2">•</span>
-          </div>
+          </Marquee>
         </div>
       </div>
       {/* ////////////////////////////////// Navbar UpData////////////////////////////////////*/}
