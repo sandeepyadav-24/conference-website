@@ -63,7 +63,7 @@ const Contact = () => {
               <tr>
                 <td>Email</td>
                 <td>
-                  <a href="mailto:">Nill</a>
+                  <a href="mailto:">icac2n.ieee@gmail.com</a>
                 </td>
               </tr>
               <tr>

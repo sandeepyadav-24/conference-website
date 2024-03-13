@@ -148,6 +148,10 @@ const Register = () => {
                 <td className="p-3">CNRB0002807</td>
               </tr>
               <tr>
+                <td className="p-3">MICR Code</td>
+                <td className="p-3">110015155</td>
+              </tr>
+              <tr>
                 <td className="p-3">Swift Code</td>
                 <td className="p-3">CNRBINBBDDS BIC</td>
               </tr>
