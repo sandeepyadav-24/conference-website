@@ -1,4 +1,5 @@
 //import { Link } from "react-router-dom";
+import Counter from "./Counter"
 const Body = () => {
   return (
     <div className="flex flex-col space-y-5">
@@ -73,10 +74,9 @@ const Body = () => {
           <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 opacity-10" />
           <div className="flex-col items-center justify-center text-center rounded-lg px-2 py-7">
             <div>
-            <img src="https://hitwebcounter.com/counter/counter.php?page=11925405&style=0019&nbdigits=5&type=page&initCount=0" title="Counter Widget" alt="Visit counter For Websites" className="scale-150 mx-auto w-36"  />                                                  
-              <br />
-              <p className="font-semibold text-2xl">Visitors</p>                                                                                                                                           
-            </div>
+              <Counter />
+              <h1 className = "mt-2 font-bold text-1xl">Visitors</h1>
+            </div> 
           </div>
         </div>
         <div id="important" className="lg:col-span-1 col-span-full">
