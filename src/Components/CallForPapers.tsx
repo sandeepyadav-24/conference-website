@@ -12,8 +12,8 @@ const CallForPapers = () => {
             Authors are solicited to contribute to the conference by submitting
             articles that illustrate research results- projects, surveying works
             and industrial experiences that describe significant advances in
-            computing, communication control and Networking. Topics of interest
-            for submission include, but are not limited to:
+            computing, communication and Networking. Topics of interest for
+            submission include, but are not limited to:
           </p>
           <ul className="list-disc mt-5 mb-5 pl-6">
             <li className="mt-2 mb-2">

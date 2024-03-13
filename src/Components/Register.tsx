@@ -9,7 +9,7 @@ const Register = () => {
           <p className="mb-5">
             Learn How to Register for ICAC2N-24: A Guide to Submitting Your
             Papers for the International Conference on Advances in Computing,
-            Communication Control and Networking.
+            Communication and Networking.
           </p>
           <div>
             <a
