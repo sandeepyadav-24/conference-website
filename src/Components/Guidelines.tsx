@@ -13,7 +13,7 @@ const Guidelines = () => {
           computing, communication and Automation. Topics of interest for
           submission include, but are not limited to:
         </p>
-        <ul className="list-disc mt-5 pl-6">
+        <ul className="list-disc mt-5 pl-6 marker:text-zinc-500">
           <li className="mt-2 mb-2 pl-1.5">
             Evolutionary Computing, Distributed and Parallel Processing, Cloud
             and Green Computing, IOT, Data Mining, Advance Database Management
