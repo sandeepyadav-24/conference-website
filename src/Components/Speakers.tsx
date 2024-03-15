@@ -10,7 +10,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Sri%20Niwas%20Singh.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/e6oqyrnem9j0ntjdl4cf.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Sri Niwas Singh"
                 />
@@ -36,7 +36,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20M.N.Doja.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/mr8mynynoghopnqczm3z.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) M.N.Doja"
                 />
@@ -60,7 +60,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20S.%20K.%20Singh.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/r3wlpqqx8yrgg55bajhx.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) S. K. Singh"
                 />
@@ -84,7 +84,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Akhilesh%20Tiwari.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/xh1ay7h3tovn6vttzcwn.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Akhilesh Tiwari"
                 />
@@ -108,7 +108,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Virender%20Ranga.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/b7aggiopoqblhfmvjlot.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Virender Ranga"
                 />
@@ -133,7 +133,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20P.%20Nagabhushan.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/irbpoz8ub3209wf4wjp5.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) P. Nagabhushan"
                 />
@@ -158,7 +158,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Satish%20K.%20Singh.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710528682/ConferenceAssets/n6q7ktwnnub0ommxgomd.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Satish K. Singh"
                 />
@@ -182,7 +182,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Shaymaa%20R.%20Tahhan.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710528683/ConferenceAssets/yd7bayfsfws9uit52zmx.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Shaymaa R. Tahhan"
                 />
@@ -207,7 +207,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Anand%20Nayyar.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710528682/ConferenceAssets/l2cl874gzorwdjklangb.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Anand Nayyar"
                 />
@@ -232,7 +232,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Sandeep%20Kajal.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/gnadmkcrpkfc0fvonpej.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Sandeep Kajal"
                 />
@@ -255,7 +255,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Ajay%20Beniwal.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/hvaxgucrjogkzmmelhbq.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Ajay Beniwal"
                 />
@@ -277,7 +277,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Neyara%20Radwan.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/xznp1quz5mayiaxcx600.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. Dr. Neyara Radwan"
                 />
@@ -297,14 +297,14 @@ const Speakers = () => {
                   Associate Professor Industrial Engineering Dept., College of
                   Applied Sciences, AL MAAREFA UNIVERSITY, Saudi Arabia
                   &amp;Mechanical Dept., Faculty of Engineering, Suez Canal
-                  University, Egypt
+                  University,Egypt
                 </span>
               </div>
             </div>
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Ahmed%20A.%20Elngar.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/rvtqaqd2gl7wupnw8j0a.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Ahmed A. Elngar"
                 />
@@ -329,7 +329,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Kashif%20Nisar,%20SMIEEE.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/mlctgifpndbsn1p2e9sg.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Kashif Nisar"
                 />
@@ -352,7 +352,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Ana%20Clarke.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/aubczxrmuk0t6d0o2gqo.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Ana Clarke"
                 />
@@ -374,7 +374,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20Nada%20Ratkovi%C4%87,%20Croatia.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526983/ConferenceAssets/dggqlawqezcvneess62a.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. Nada Ratković"
                 />
@@ -399,7 +399,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Deepak%20Garg.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/sbbsc4xwoc1l9qogy9tr.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Deepak Garg"
                 />
@@ -424,7 +424,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Asheesh%20K.%20Singh.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/wzcnjyljg4jigusvcmhx.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Asheesh K. Singh"
                 />
@@ -449,7 +449,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Prabhakar%20Tiwari.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/ww12ga3i21esptn3ij7s.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Prabhakar Tiwari"
                 />
@@ -473,7 +473,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Malay%20Kishore%20Dutta.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/u1sr91reu5ae1eqnjtmy.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Malay Kishore Dutta"
                 />
@@ -498,7 +498,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Neetesh%20Purohit.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/lcs6eejonbemwbeafix8.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Neetesh Purohit"
                 />
@@ -523,7 +523,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20N.%20Badal.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/zog1nzfyisblpai12ibq.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) N. Badal"
                 />
@@ -547,7 +547,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20J%20Ramkumar.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/bysze53ht5kdi2hwicbo.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) J Ramkumar"
                 />
@@ -571,7 +571,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Rajiv%20Saxena.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526983/ConferenceAssets/agwdve3ak2bmgdfujfj0.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) Rajiv Saxena"
                 />
