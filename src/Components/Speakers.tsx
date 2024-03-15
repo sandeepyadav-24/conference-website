@@ -232,7 +232,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Sandeep%20Kajal.jpeg"
+                  src="https://media.licdn.com/dms/image/C5603AQHRbKVx1VgZ-Q/profile-displayphoto-shrink_800_800/0/1630743880556?e=2147483647&v=beta&t=jObyDvK_4ac14uauoTSrq7F8GaQgLP76DSNh2Uf6Y8s"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Sandeep Kajal"
                 />
