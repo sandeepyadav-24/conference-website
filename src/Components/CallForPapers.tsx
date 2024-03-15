@@ -15,7 +15,7 @@ const CallForPapers = () => {
             computing, communication and Networking. Topics of interest for
             submission include, but are not limited to:
           </p>
-          <ul className="list-disc mt-5 mb-5 pl-6">
+          <ul className="list-disc mt-5 mb-5 pl-6 marker:text-zinc-500">
             <li className="mt-2 mb-2">
               Data Analytics, Data Science and Data Mining
             </li>

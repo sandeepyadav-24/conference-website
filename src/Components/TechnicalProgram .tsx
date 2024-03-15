@@ -2,11 +2,11 @@ const TechnicalProgram = () => {
   return (
     <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
       <div className="prose mx-4">
-        <h1 className="heading text-prose-headings font-extrabold text-2.25xl mb-3 leading-9 border-l-4 border-red-600 pl-4 pr-4">
+        <h1 className="heading text-prose-headings font-extrabold text-3xl mb-3 leading-9 border-l-4 border-red-600 pl-4 pr-4">
           Technical Program Committee
         </h1>
         <div>
-          <ul className="list-disc mt-5 mb-5 pl-6.5">
+          <ul className="list-disc mt-5 mb-5 pl-6.5 m-10 marker:text-zinc-500">
             <li className="pl-1.5 mt-2 mb-2">Prof. Parmanand, SU, Gr.Noida</li>
             <li className="pl-1.5 mt-2 mb-2">
               Prof. Rajiv Saxena, Jaypee University

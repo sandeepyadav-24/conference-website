@@ -2,11 +2,11 @@ const AdvisoryBoard = () => {
   return (
     <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
       <div className="prose mx-4">
-        <h1 className="heading  text-prose-headings font-extrabold text-2.25xl mb-3 leading-tight pl-4 border-l-4 border-red-600  pr-4 text-inherit font-inherit">
+        <h1 className="heading  text-prose-headings font-extrabold text-3xl mb-3 leading-tight pl-4 border-l-4 border-red-600  pr-4 text-inherit font-inherit">
           Advisory Board
         </h1>
         <div>
-          <ul className="list-disc mt-5 mb-5 pl-7">
+          <ul className="list-disc marker:text-zinc-500 mt-5 mb-5 pl-7 m-3 ">
             <li className="pl-1.5 mt-2 mb-2">
               Prof. S. C. Srivastava, IIT Kanpur
             </li>
