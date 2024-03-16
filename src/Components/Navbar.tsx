@@ -59,9 +59,9 @@ const Navbar = () => {
               </span>
               <div className="bg-gray-50 flex justify-center items-center pl-3 pr-4 pt-4 pb-3 rounded-md">
                 <img
-                  src="https://icac3n.in/_next/image?url=%2FIEEE_up.png&w=256&q=75"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710529325/ConferenceAssets/wsgstheacibgrm13vfii.png"
                   alt=""
-                  className="w-[75px] h-[26px]"
+                  className="w-[75px] h-[20px]"
                 />
               </div>
             </div>

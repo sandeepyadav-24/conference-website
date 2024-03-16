@@ -45,7 +45,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20S.%20K.%20Singh.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/r3wlpqqx8yrgg55bajhx.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -65,7 +65,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Akhilesh%20Tiwari.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/xh1ay7h3tovn6vttzcwn.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -85,7 +85,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Virender%20Ranga.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/b7aggiopoqblhfmvjlot.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -106,7 +106,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20P.%20Nagabhushan.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/irbpoz8ub3209wf4wjp5.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -127,7 +127,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Satish%20K.%20Singh.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710528682/ConferenceAssets/n6q7ktwnnub0ommxgomd.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -147,7 +147,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Shaymaa%20R.%20Tahhan.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710528683/ConferenceAssets/yd7bayfsfws9uit52zmx.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -168,7 +168,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Anand%20Nayyar.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710528682/ConferenceAssets/l2cl874gzorwdjklangb.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -189,7 +189,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Sandeep%20Kajal.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/gnadmkcrpkfc0fvonpej.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -210,7 +210,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Ajay%20Beniwal.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/hvaxgucrjogkzmmelhbq.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -230,7 +230,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Neyara%20Radwan.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/xznp1quz5mayiaxcx600.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -246,14 +246,14 @@ const FooterSpeaker = () => {
                   Associate Professor Industrial Engineering Dept., College of
                   Applied Sciences, AL MAAREFA UNIVERSITY, Saudi Arabia
                   &amp;Mechanical Dept., Faculty of Engineering, Suez Canal
-                  University, Egypt
+                  University,Egypt
                 </span>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Ahmed%20A.%20Elngar.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/rvtqaqd2gl7wupnw8j0a.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -274,7 +274,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Kashif%20Nisar,%20SMIEEE.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/mlctgifpndbsn1p2e9sg.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -295,7 +295,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Dr.%20Ana%20Clarke.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/aubczxrmuk0t6d0o2gqo.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -315,7 +315,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20Nada%20Ratkovi%C4%87,%20Croatia.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526983/ConferenceAssets/dggqlawqezcvneess62a.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -336,7 +336,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Deepak%20Garg.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/sbbsc4xwoc1l9qogy9tr.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -357,7 +357,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Asheesh%20K.%20Singh.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/wzcnjyljg4jigusvcmhx.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -378,7 +378,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Prabhakar%20Tiwari.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/ww12ga3i21esptn3ij7s.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -398,7 +398,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Malay%20Kishore%20Dutta.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/u1sr91reu5ae1eqnjtmy.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -419,7 +419,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Neetesh%20Purohit.jpeg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/lcs6eejonbemwbeafix8.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -440,7 +440,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20N.%20Badal.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/zog1nzfyisblpai12ibq.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -460,7 +460,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20J%20Ramkumar.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/bysze53ht5kdi2hwicbo.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -480,7 +480,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://icac3n.in/images/speakers/Prof.%20(Dr.)%20Rajiv%20Saxena.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526983/ConferenceAssets/agwdve3ak2bmgdfujfj0.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
