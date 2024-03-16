@@ -27,10 +27,10 @@ const OrganizingComittee = () => {
             </li>
             <li
               itemProp="member"
-              id="Dr. Dhruv Galgotia"
+              id="Mr. Sohil Chadha"
               className="pl-1.5 mt-2 mb-2"
             >
-              <span itemProp="name">Dr. Dhruv Galgotia</span>,{" "}
+              <span itemProp="name">Mr. Sohil Chadha</span>,{" "}
               <span itemProp="jobTitle">Vice Chairman</span>
             </li>
           </ul>
