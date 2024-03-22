@@ -8,8 +8,8 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Intro = () => {
   return (
-    <div className="flex flex-col items-center lg:text-start text-center mt-2 md:flex-row md:mx-auto">
-      <div className="col-span-full lg:col-span-2 flex flex-col justify-between h-full self-start gap-2">
+    <div className="flex flex-col justify-center items-center text-center lg:text-start gap-10 lg:flex-row lg:justify-between">
+      <div className="flex flex-col gap-4 h-full lg:w-[70%]">
         <div className="flex items-center space-x-2 lg:justify-start justify-center">
           <p className="text-red-800 font-semibold">
             16th and 17th December 2024
@@ -30,9 +30,8 @@ const Intro = () => {
             </p>
           </div>
         </div>
-        <p className="text-3xl lg:text-4xl break-words my-3 lg:my-2 font-bold mx-2 lg:mx-0">
-          1st International Conference on Advances in Computing, Communication
-          and Networking- ICAC2N
+        <p className="text-3xl lg:text-4xl font-bold ">
+          1st International Conference on Advances in Computing, Communication and Networking- ICAC2N
         </p>
         <div className="hidden lg:flex items-center space-x-2 lg:justify-start justify-center">
           <div className="text-red-800">
@@ -145,8 +144,8 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="col-span-full lg:col-span-2 flex flex-col justify-between h-full self-start gap-2 ml-40 w-[700px]">
-        <div className="col-span-full lg:col-span-3 flex h-full w-full px-1 rounded-lg overflow-hidden">
+
+      <div className="col-span-full lg:col-span-3 flex h-full w-full px-1 rounded-lg overflow-hidden">
           <Swiper
             spaceBetween={30}
             centeredSlides={true}
@@ -165,7 +164,7 @@ const Intro = () => {
                 className=" w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
                 draggable="false"
               >
-                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing object-cover">
                   <img
                     draggable="false"
                     alt=""
@@ -174,7 +173,7 @@ const Intro = () => {
                     height="2000"
                     decoding="async"
                     data-nimg="1"
-                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent "
+                    className="object-cover rounded-md shadow-lg text-transparent "
                     loading="lazy"
                   />
                 </div>
@@ -221,8 +220,8 @@ const Intro = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-        </div>
       </div>
+  
     </div>
   );
 };
