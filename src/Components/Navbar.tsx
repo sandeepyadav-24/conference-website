@@ -59,7 +59,7 @@ const Navbar = () => {
               </span>
               <div className="bg-gray-50 flex justify-center items-center pl-3 pr-4 pt-4 pb-3 rounded-md">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710529325/ConferenceAssets/wsgstheacibgrm13vfii.png"
+                  src="https://images.app.goo.gl/35LtreS5wJCv3Fh29"
                   alt=""
                   className="w-[75px] h-[20px]"
                 />
