@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Intro = () => {
   return (
-    <div className="flex items-center lg:text-start text-center mt-2 md:flex-col">
+    <div className="flex flex-col items-center lg:text-start text-center mt-2 md:flex-row md:mx-auto">
       <div className="col-span-full lg:col-span-2 flex flex-col justify-between h-full self-start gap-2">
         <div className="flex items-center space-x-2 lg:justify-start justify-center">
           <p className="text-red-800 font-semibold">
