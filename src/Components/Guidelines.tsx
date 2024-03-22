@@ -5,8 +5,8 @@ function downloadFiles() {
   const pdfFile = "https://drive.google.com/uc?export=download&id=1T_RSbf-zgpgmF9NN_XABuo9PqGVcZ1gX";
 
   // Open two new tabs with the download links
-  window.open(file1Url, '_blank');
-  window.open(file2Url, '_blank');
+  window.open(docxFile, '_blank');
+  window.open(pdfFile, '_blank');
 }
 const Guidelines = () => {
   return (
