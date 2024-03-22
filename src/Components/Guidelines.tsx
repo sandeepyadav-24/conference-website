@@ -1,4 +1,13 @@
 import { Link } from "react-router-dom";
+function downloadFiles() {
+  // Define the download links for the two files
+  const docxFile = "https://drive.google.com/uc?export=download&id=1YEBtFSi2ltpGdWDsIx6mbKeoituR120c";
+  const pdfFile = "https://drive.google.com/uc?export=download&id=1T_RSbf-zgpgmF9NN_XABuo9PqGVcZ1gX";
+
+  // Open two new tabs with the download links
+  window.open(file1Url, '_blank');
+  window.open(file2Url, '_blank');
+}
 const Guidelines = () => {
   return (
     <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
@@ -86,7 +95,7 @@ const Guidelines = () => {
             of foreign authors. The IEEE paper template can be downloaded from
             the link given below.
           </p>
-          <div>
+          <div onClick={()=>{downloadFiles()}}>
             <a
               href=""
               className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
