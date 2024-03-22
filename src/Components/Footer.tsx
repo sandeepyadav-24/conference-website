@@ -21,7 +21,7 @@ const Footer = () => {
               <img
                 src="https://media.licdn.com/dms/image/C4D0BAQH-OlyJBTqhuA/company-logo_200_200/0/1630473042878?e=2147483647&v=beta&t=il1n47KyKRuG5dCfX41lmyt8PZj5_YNPvvRYuNNG8Ro"
                 alt="IEEE UP Logo"
-                className="w-[100px] h-[35px]"
+                className="w-[130px] h-[60px] object-cover"
               />
             </div>
           </div>
