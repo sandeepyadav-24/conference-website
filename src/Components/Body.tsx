@@ -12,7 +12,7 @@ const Body = () => {
             ICAC2N is a prestigious international conference that brings
             together top researchers, scientists, engineers, and scholars from
             around the world to share their latest research findings and
-            experiences in computing, communication control, and networking.
+            experiences in computing, communication and networking.
             Featuring keynote speeches, technical sessions, and workshops, the
             conference covers a wide range of topics such as cloud computing,
             AI, wireless communication systems, IoT, and cybersecurity.

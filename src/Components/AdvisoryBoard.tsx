@@ -40,8 +40,8 @@ const AdvisoryBoard = () => {
               Prof. K. N. Srivastava, ABB Sweden
             </li>
             <li className="pl-1.5 mt-2 mb-2">
-              {" "}
-              className="pl-1.5 mt-2 mb-2"Prof. Ambrish Chandra, Montreal Canada
+              
+              Prof. Ambrish Chandra, Montreal Canada
             </li>
             <li className="pl-1.5 mt-2 mb-2">
               Prof. D. S. Chauhan, Vice Chancellor, GLA University, Mathura
