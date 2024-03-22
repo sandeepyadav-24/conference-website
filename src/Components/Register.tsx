@@ -14,7 +14,7 @@ const Register = () => {
           <div>
             <a
               className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-              href="https://forms.gle/NR6eA7N2Akp9S51XA"
+              href="https://forms.gle/E7RuvuQQPxPZQnJU6"
             >
               Register Now
               <svg
