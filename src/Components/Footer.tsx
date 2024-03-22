@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
             <div className="w-fit bg-gray-50 flex justify-center items-center pl-3 pr-4 pt-4 pb-3 rounded-md">
               <img
-                src="https://images.app.goo.gl/35LtreS5wJCv3Fh29"
+                src="https://media.licdn.com/dms/image/C4D0BAQH-OlyJBTqhuA/company-logo_200_200/0/1630473042878?e=2147483647&v=beta&t=il1n47KyKRuG5dCfX41lmyt8PZj5_YNPvvRYuNNG8Ro"
                 alt="IEEE UP Logo"
                 className="w-[100px] h-[35px]"
               />
