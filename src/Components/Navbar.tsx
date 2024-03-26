@@ -10,7 +10,7 @@ const Navbar = () => {
           <Marquee speed = {80}>
             <span className="mx-4">
               1st International Conference on Advances in Computing,
-              Communication Control and Networking- ICAC2N
+              Communication  and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
             <span className="mx-4">
