@@ -349,6 +349,10 @@ const OrganizingComittee = () => {
               <span itemProp="name">Mr. Sandeep Yadav</span>,{" "}
               <span itemProp="jobTitle">CSE Student, ITSEC</span>
             </li>
+            <li itemProp="member" id="Moh Faizan">
+              <span itemProp="name">Moh Faizan</span>,{" "}
+              <span itemProp="jobTitle">CSE Student, ITSEC</span>
+            </li>
             <li itemProp="member" id="Mr. Suyash Gautam">
               <span itemProp="name">Mr. Suyash Gautam</span>,{" "}
               <span itemProp="jobTitle">CSE-DS Student, ITSEC</span>
