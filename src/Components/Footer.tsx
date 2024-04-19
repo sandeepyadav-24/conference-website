@@ -77,6 +77,7 @@ const Footer = () => {
             <p className="py-1 block">
               Developed by
               <a href="https://github.com/sandeepyadav-24"> Sandeep Yadav, </a>
+              <a href="https://github.com/Faizanusmani06"> Moh Faizan, </a>
               <a href="https://github.com/TheGamingBaba"> Suyash Gautam</a>
             </p>
           </span>

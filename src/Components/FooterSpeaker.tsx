@@ -45,7 +45,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/r3wlpqqx8yrgg55bajhx.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1713452018/ConferenceAssets/gvxgxu0hevraexehrjx3.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -85,7 +85,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/b7aggiopoqblhfmvjlot.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1713452019/ConferenceAssets/mpb5dwnyzjdrcghbkef0.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -230,7 +230,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/xznp1quz5mayiaxcx600.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1713452018/ConferenceAssets/evctl9ybkyy4xdha0sqk.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -295,7 +295,7 @@ const FooterSpeaker = () => {
             <SwiperSlide>
               <div className="col-span-1 flex flex-col items-center">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/aubczxrmuk0t6d0o2gqo.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1713452018/ConferenceAssets/ci1vwoyuhrum4ashujvn.jpg"
                   alt="Speaker&#x27;s Photo"
                   className="h-56 border-2 border-gray-300 w-64 object-cover mb-5 rounded-lg shadow-md"
                 />
@@ -503,7 +503,7 @@ const FooterSpeaker = () => {
 
       <div className="col-span-1 flex flex-col items-center gap-2 justify-center my-5">
         <div className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-sky-600 hover:bg-sky-700 shrink-on-hover focus:ring-4 focus:ring-sky-300 no-underline dark:focus:ring-sky-700">
-          <Link to={"/"}>View all</Link>
+          <Link to={"/speakers"}>View all</Link>
         </div>
       </div>
     </div>

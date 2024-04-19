@@ -60,7 +60,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/r3wlpqqx8yrgg55bajhx.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1713452018/ConferenceAssets/gvxgxu0hevraexehrjx3.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. (Dr.) S. K. Singh"
                 />
@@ -108,7 +108,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526987/ConferenceAssets/b7aggiopoqblhfmvjlot.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1713452019/ConferenceAssets/mpb5dwnyzjdrcghbkef0.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Virender Ranga"
                 />
@@ -277,7 +277,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526985/ConferenceAssets/xznp1quz5mayiaxcx600.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1713452018/ConferenceAssets/evctl9ybkyy4xdha0sqk.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Prof. Dr. Neyara Radwan"
                 />
@@ -352,7 +352,7 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526984/ConferenceAssets/aubczxrmuk0t6d0o2gqo.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1713452018/ConferenceAssets/ci1vwoyuhrum4ashujvn.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Ana Clarke"
                 />
