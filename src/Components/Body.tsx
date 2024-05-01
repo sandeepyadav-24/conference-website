@@ -153,25 +153,7 @@ const Body = () => {
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
               </div>
-              <div>
-                <div className="flex space-x-2 items-start -mx-4 -my-5 p-4 bg-orange-100">
-                  <div>
-                    <p className="font-medium text-red-800">
-                      Abstract Submission Deadline
-                    </p>
-                    <p className="font-light text-sm text-red-800"></p>
-                    <p className="text-sm  text-red-800">30/04/2024</p>
-                  </div>
-                  <div className="flex space-x-2 items-center justify-center">
-                    <div className="rounded-full mt-1 bg-orange-800 font-semibold bg-opacity-20">
-                      <p className="px-2 py-0.5 text-xs text-orange-800">
-                        Important
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
-              </div>
+              
               <div>
                 <div className="flex space-x-2 items-start -mx-4 -my-5 p-4 bg-orange-100">
                   <div>
