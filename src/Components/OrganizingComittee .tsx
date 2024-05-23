@@ -108,6 +108,25 @@ const OrganizingComittee = () => {
           <h2
             className="heading text-prose-headings font-extrabold text-2.25xl mb-4 leading-9 border-l-4 border-red-600 pl-4 pr-4"
             itemProp="name"
+            id="Conference Publication Chair"
+          >
+            Conference Publication Chair
+          </h2>
+          <ul className="mb-5 pl-6.5 list-disc ml-10 marker:text-zinc-500">
+            <li itemProp="member" id="Prof. (Dr.) Jaya Sinha">
+              <span itemProp="name">Prof. (Dr.) Jaya Sinha</span>,
+              <span itemProp="jobTitle"> CSE, ITSEC</span>
+            </li>
+            <li itemProp="member" id="Prof.(Dr.) Hariom Tyagi">
+              <span itemProp="name">Prof.(Dr.) Hariom Tyagi</span>,
+              <span itemProp="jobTitle"> CSE, ITSEC</span>
+            </li>    
+          </ul>
+        </div>     
+        <div itemProp="department" className="ml-3">
+          <h2
+            className="heading text-prose-headings font-extrabold text-2.25xl mb-4 leading-9 border-l-4 border-red-600 pl-4 pr-4"
+            itemProp="name"
             id="Conference Chair"
           >
             Conference Chair
