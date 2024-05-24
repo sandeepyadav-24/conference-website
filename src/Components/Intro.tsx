@@ -26,7 +26,7 @@ const Intro = () => {
           <div className="text-red-800">
             <p className="font-semibold text">
               IEEE XPLORE COMPLIANT ISBN No.{" "}
-              <span>979-8-3503-5681-6</span>
+              <span className="mx-2">979-8-3503-5681-6</span>
             </p>
           </div>
         </div>
@@ -44,7 +44,7 @@ const Intro = () => {
           <div className="text-red-800">
             <p className="font-semibold text">
               IEEE XPLORE COMPLIANT ISBN No.
-              <span>979-8-3503-5681-6</span> 
+              <span className="mx-2">979-8-3503-5681-6</span> 
             </p>
           </div>
         </div>
