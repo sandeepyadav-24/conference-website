@@ -37,7 +37,7 @@ const Register = () => {
           </h2>
           <div>
             <img
-              src="https://icac3n.in/images/misc/registration_fee.png"
+              src="https://icac3n.in/static/media/Registration%20Fee.cb89086a69c6cb382932.jpg"
               alt=""
               className="max-w-full h-auto my-8"
             />
