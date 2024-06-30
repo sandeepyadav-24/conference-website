@@ -1,21 +1,26 @@
 //import { Link } from "react-router-dom";
-import Counter from "./Counter"
+import Counter from "./Counter";
 const Body = () => {
   return (
     <div className="flex flex-col space-y-5">
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-2 md:mx-auto">
         <div className="lg:col-span-2 lg:mr-10 col-span-full">
+          <h3 className="font-bold text-[#981B1B]">
+            All conference papers included in IEEE Xplore will be indexed in the
+            SCOPUS database.
+          </h3>
           <h2 className="font-bold text-lg text-center lg:text-2xl lg:text-start my-3">
             About ICACCN
           </h2>
+
           <p className="text-justify">
             ICAC2N is a prestigious international conference that brings
             together top researchers, scientists, engineers, and scholars from
             around the world to share their latest research findings and
-            experiences in computing, communication and networking.
-            Featuring keynote speeches, technical sessions, and workshops, the
-            conference covers a wide range of topics such as cloud computing,
-            AI, wireless communication systems, IoT, and cybersecurity.
+            experiences in computing, communication and networking. Featuring
+            keynote speeches, technical sessions, and workshops, the conference
+            covers a wide range of topics such as cloud computing, AI, wireless
+            communication systems, IoT, and cybersecurity.
           </p>
           <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700 opacity-10" />
           <h2 className="font-bold text-lg text-center lg:text-2xl lg:text-start my-3">
@@ -75,8 +80,8 @@ const Body = () => {
           <div className="flex-col items-center justify-center text-center rounded-lg px-2 py-7">
             <div>
               <Counter />
-              <h1 className = "mt-2 font-bold text-1xl">Visitors</h1>
-            </div> 
+              <h1 className="mt-2 font-bold text-1xl">Visitors</h1>
+            </div>
           </div>
         </div>
         <div id="important" className="lg:col-span-1 col-span-full">
@@ -153,7 +158,7 @@ const Body = () => {
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
               </div>
-              
+
               <div>
                 <div className="flex space-x-2 items-start -mx-4 -my-5 p-4 bg-orange-100">
                   <div>
