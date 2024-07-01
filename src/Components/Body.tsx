@@ -5,9 +5,9 @@ const Body = () => {
     <div className="flex flex-col space-y-5">
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-2 md:mx-auto">
         <div className="lg:col-span-2 lg:mr-10 col-span-full">
-          <h3 className="font-bold text-[#981B1B]">
-            All conference papers included in IEEE Xplore will be indexed in the
-            SCOPUS database.
+          <h3 className="font-bold text-black ">
+            <span className="text-[#981B1B]">Note:</span> All conference papers
+            included in IEEE Xplore will be indexed in the SCOPUS database.
           </h3>
           <h2 className="font-bold text-lg text-center lg:text-2xl lg:text-start my-3">
             About ICACCN

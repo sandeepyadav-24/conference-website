@@ -3,17 +3,32 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
+import { useState, useEffect } from "react";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Intro = () => {
+  const [scaled, setScaled] = useState(false);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setScaled((scaled) => !scaled);
+    }, 1000); // Change every 2 seconds
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+  }, []);
+  console.log(scaled);
   return (
     <div>
       <div className="text-center my-10 font-bold">
         <p>CONFERENCE WILL BE HELD IN BLENDED MODE (ONLINE AND OFFLINE BOTH)</p>
-        <p className="text-lg text-[#981B1B]">
-          5th IEEE ICAC3N-23 || 15th & 16th December 2023
-        </p>
+        <button
+          className={`text-2xl my-4 text-red-800 transition transform duration-500 ${
+            scaled ? "scale-150" : "scale-100"
+          }`}
+        >
+          1st IEEE ICAC2N-24 || 16th & 17th December 2024
+        </button>
       </div>
       <div className="flex flex-col justify-center items-center text-center lg:text-start gap-10 lg:flex-row lg:justify-between">
         <div className="flex flex-col gap-4 h-full lg:w-[70%]">
