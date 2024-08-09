@@ -54,7 +54,7 @@ const Register = () => {
             <div>
               <a
                 className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-                href="https://drive.google.com/uc?export=download&id=1YEBtFSi2ltpGdWDsIx6mbKeoituR120c"
+                href="https://drive.google.com/uc?export=download&id=12i-5rZdGbhnz05hlM8p-7F_yaUZLV09G"
               >
                 Download Docx File
                 <svg
@@ -74,7 +74,7 @@ const Register = () => {
             <div>
               <a
                 className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-                href="https://drive.google.com/uc?export=download&id=1T_RSbf-zgpgmF9NN_XABuo9PqGVcZ1gX   "
+                href="https://drive.google.com/uc?export=download&id=12hhGJnCjI2JIQbeM6Ww6kTaWDVmptK1T   "
               >
                 Download PDF File
                 <svg
