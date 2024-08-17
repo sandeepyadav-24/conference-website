@@ -6,7 +6,7 @@ function MyComponent() {
 
     useEffect(() => {
         
-        fetch('https://counter-production-c269.up.railway.app/api/v1/IncrementCounter')
+        fetch('https://website-counter-y1s1.onrender.com/api/v1/IncrementCounter')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
