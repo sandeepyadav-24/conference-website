@@ -104,7 +104,8 @@ const Speakers = () => {
                   Prof. (Dr.) Varun Kakar
                 </span>
                 <span className="font-light text-xs pr-2">
-                  B.T.Kumaon Institute of technology, Dwarahat, Uttarakhand
+                  Secretary IEEE & B.T.Kumaon Institute of technology, Dwarahat,
+                  Uttarakhand
                 </span>
               </div>
             </div>
