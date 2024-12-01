@@ -1,13 +1,15 @@
 //import { Link } from "react-router-dom";
 import Counter from "./Counter";
+import { Link } from "react-router-dom";
 const Body = () => {
   return (
     <div className="flex flex-col space-y-5">
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-2 md:mx-auto">
         <div className="lg:col-span-2 lg:mr-10 col-span-full">
           <h3 className="font-bold text-black ">
-            <span className="text-[#981B1B]">Important:</span> All conference papers
-            included in IEEE Xplore will be indexed in the SCOPUS database.
+            <span className="text-[#981B1B]">Important:</span> All conference
+            papers included in IEEE Xplore will be indexed in the SCOPUS
+            database.
           </h3>
           <h2 className="font-bold text-lg text-center lg:text-2xl lg:text-start my-3">
             About ICACCN
@@ -166,7 +168,7 @@ const Body = () => {
                       Paper Submission Deadline
                     </p>
                     <p className="font-light text-sm text-red-800"></p>
-                    <p className="text-sm  text-red-800">31/08/2024</p>
+                    <p className="text-sm  text-red-800">31/10/2024</p>
                   </div>
                   <div className="flex space-x-2 items-center justify-center">
                     <div className="rounded-full mt-1 bg-orange-800 font-semibold bg-opacity-20">
@@ -185,7 +187,7 @@ const Body = () => {
                     <p className="font-light text-sm ">
                       (within 4weeks from submission)
                     </p>
-                    <p className="text-sm text-gray-700 ">30/09/2024</p>
+                    <p className="text-sm text-gray-700 ">14/11/2024</p>
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
@@ -195,7 +197,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Registration</p>
 
-                    <p className="text-sm text-gray-700 ">31/10/2024</p>
+                    <p className="text-sm text-gray-700 ">21/11/2024</p>
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
@@ -205,7 +207,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Camera Ready Paper</p>
 
-                    <p className="text-sm text-gray-700 ">31/10/2024</p>
+                    <p className="text-sm text-gray-700 ">21/11/2024</p>
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
@@ -224,17 +226,20 @@ const Body = () => {
               </div>
             </div>
           </div>
-          {/**<div className="w-full lg:w-min-sm">
+          <div className="w-full lg:w-min-sm">
             <div className="mt-5 p-4 rounded-t-md bg-gray-200 border-l-4 border-red-600 w-full lg:max-w-sm">
-              <p className="font-semibold text-lg">Important Downloads</p>
+              <p className="font-semibold text-lg">Important Form</p>
             </div>
             <div className="space-y-3 p-4 rounded-b-md bg-gray-100 w-full lg:max-w-sm lg:max-h-52 lg:overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-thumb-rounded-md scrollbar-track-gray-200">
-              <Link to="https://www.google.com" className="cursor-pointer">
+              <Link
+                to="https://forms.gle/YdrEnMongZt31Nws6"
+                className="cursor-pointer"
+              >
                 <div className="flex items-start justify-between">
                   <div className="flex space-x-2 items-start">
                     <div>
                       <p className="font-medium">
-                        Final Presntation Schedule ICAC2N-2024 (.pdf)
+                        Presentation (PPT) Submission Link
                       </p>
                     </div>
                     <div className="rounded-full bg-blue-600 my-1 bg-opacity-20">
@@ -250,7 +255,8 @@ const Body = () => {
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
               </Link>
 
-              <Link to="https://www.google.com" className="cursor-pointer">
+              {/**
+               * <Link to="https://www.google.com" className="cursor-pointer">
                 <div className="flex items-start justify-between">
                   <div>
                     <p className="font-medium">
@@ -276,7 +282,6 @@ const Body = () => {
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
               </Link>
-
               <Link to="https://www.google.com" className="cursor-pointer">
                 <div className="flex items-start justify-between">
                   <div className="flex space-x-2 items-start">
@@ -309,8 +314,9 @@ const Body = () => {
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
               </Link>
+               */}
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

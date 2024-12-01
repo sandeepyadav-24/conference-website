@@ -52,7 +52,7 @@ const TechnicalProgram = () => {
               Prof. Abhishesk Swaroop, BPIT, Delhi
             </li>
             <li className="pl-1.5 mt-2 mb-2">
-              Prof. Neetesh Purohit, IIIT, Allahabad
+              Prof. Neetesh Purohit, Director, SGSITS, Indore
             </li>
             <li className="pl-1.5 mt-2 mb-2">
               Prof. Neelendra Badal,KNIT Sultanpur

@@ -13,6 +13,7 @@ import AdvisoryBoard from "./Components/AdvisoryBoard";
 import TechnicalProgram from "./Components/TechnicalProgram ";
 import OrganizingComittee from "./Components/OrganizingComittee ";
 import Direct from "./Components/Direct";
+import Schedule from "./Components/Schedule";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
+        <Route path="/schedule" element={<Schedule />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/guidelines" element={<Guidelines />}></Route>
         <Route path="/speakers" element={<Speakers />}></Route>

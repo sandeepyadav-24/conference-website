@@ -40,7 +40,6 @@ const AdvisoryBoard = () => {
               Prof. K. N. Srivastava, ABB Sweden
             </li>
             <li className="pl-1.5 mt-2 mb-2">
-              
               Prof. Ambrish Chandra, Montreal Canada
             </li>
             <li className="pl-1.5 mt-2 mb-2">
@@ -78,7 +77,7 @@ const AdvisoryBoard = () => {
               Prof. S. K. Singh, IIIT, Allahabad
             </li>
             <li className="pl-1.5 mt-2 mb-2">
-              Prof. Neetesh Purohit, IIIT, Allahabad
+              Prof. Neetesh Purohit, Director, SGSITS, Indore
             </li>
             <li className="pl-1.5 mt-2 mb-2">
               Prof. Neelendra Badal, KNIT Sultanpur

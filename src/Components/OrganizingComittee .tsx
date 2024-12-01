@@ -117,9 +117,9 @@ const OrganizingComittee = () => {
               <span itemProp="name">Prof. (Dr.) Vishnu Sharma</span>,{" "}
               <span itemProp="jobTitle">Dean, CSE, ITSEC</span>
             </li>
-            <li itemProp="member" id="Prof. (Dr.) Ashish Gupta">
-              <span itemProp="name">Prof. (Dr.) Ashish Gupta</span>,{" "}
-              <span itemProp="jobTitle">HOD, CSE, ITSEC</span>
+            <li itemProp="member" id="Prof. (Dr.) Jaya Sinha">
+              <span itemProp="name">Prof. (Dr.) Jaya Sinha</span>,
+              <span itemProp="jobTitle"> HOD, CSE, ITSEC</span>
             </li>
           </ul>
         </div>
@@ -132,17 +132,17 @@ const OrganizingComittee = () => {
             Conference Publication Chair
           </h2>
           <ul className="mb-5 pl-6.5 list-disc ml-10 marker:text-zinc-500">
-            <li itemProp="member" id="Prof. (Dr.) Jaya Sinha">
-              <span itemProp="name">Prof. (Dr.) Jaya Sinha</span>,
+            <li itemProp="member" id="Prof. (Dr.) Sandhya Umrao">
+              <span itemProp="name">Prof. (Dr.) Sandhya Umrao</span>,
               <span itemProp="jobTitle"> CSE, ITSEC</span>
             </li>
             <li itemProp="member" id="Prof.(Dr.) Hariom Tyagi">
               <span itemProp="name">Prof.(Dr.) Hariom Tyagi</span>,
               <span itemProp="jobTitle"> CSE, ITSEC</span>
-            </li>    
+            </li>
           </ul>
-        </div>     
-        
+        </div>
+
         <div itemProp="department" className="ml-3">
           <h2
             className="heading text-prose-headings font-extrabold text-2.25xl mb-4 leading-9 border-l-4 border-red-600 pl-4 pr-4"
@@ -152,12 +152,8 @@ const OrganizingComittee = () => {
             Technical Program Chairs
           </h2>
           <ul className="mb-5 pl-6.5 list-disc ml-10 marker:text-zinc-500">
-            <li itemProp="member" id="Prof. (Dr.) Ashish Gupta">
-              <span itemProp="name">Prof. (Dr.) Ashish Gupta</span>,{" "}
-              <span itemProp="jobTitle">HOD, CSE, ITSEC</span>
-            </li>
             <li itemProp="member" id="Prof. (Dr.) Nitin Mishra">
-              <span itemProp="name">Prof. (Dr.) Nitin Mishra</span>,{" "}
+              <span itemProp="name">Prof. (Dr.) Biswa Mohan Sahoo</span>,{" "}
               <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
             <li itemProp="member" id="Prof. (Dr.) Kuldeep Malik">
@@ -258,7 +254,7 @@ const OrganizingComittee = () => {
           </h2>
           <ul className="mb-5 pl-6.5 list-disc ml-10 marker:text-zinc-500">
             <li itemProp="member" id="Prof. (Dr.) Nitin Mishra">
-              <span itemProp="name">Prof. (Dr.) Nitin Mishra</span>,{" "}
+              <span itemProp="name">Mr. Anurag Gupta</span>,{" "}
               <span itemProp="jobTitle">CSE, ITSEC</span>
             </li>
             <li itemProp="member" id="Prof. Manik Chandra">

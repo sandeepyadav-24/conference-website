@@ -432,8 +432,7 @@ const FooterSpeaker = () => {
                   Prof. (Dr.) Neetesh Purohit
                 </span>
                 <span className="font-light text-xs text-center">
-                  Indian Institute of Information Technology, Allahabad (IIITA),
-                  Prayagraj, UP
+                  Director, SGSITS, Indore
                 </span>
               </div>
             </SwiperSlide>

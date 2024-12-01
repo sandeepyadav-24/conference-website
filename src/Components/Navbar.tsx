@@ -1,16 +1,26 @@
 import { Link } from "react-router-dom";
 import DropDown from "./DropDownButton";
 import Marquee from "react-fast-marquee";
+import { useState, useEffect } from "react";
 const Navbar = () => {
+  const [scaled, setScaled] = useState(false);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setScaled((scaled) => !scaled);
+    }, 1000); // Change every 2 seconds
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+  }, []);
   return (
     <div>
       {/*   ///////////////////////////////// AMrquee ///////////////////////////////*/}
       <div className="py-1 px-3 bg-stone-800">
         <div className="relative flex overflow-x-hidden text-white text-sm">
-          <Marquee speed = {80}>
+          <Marquee speed={80}>
             <span className="mx-4">
               1st International Conference on Advances in Computing,
-              Communication  and Networking- ICAC2N
+              Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
             <span className="mx-4">
@@ -37,7 +47,7 @@ const Navbar = () => {
             <span className="mx-4">
               1st International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
-             </span>
+            </span>
             <span className="mx-2">•</span>
           </Marquee>
         </div>
@@ -115,6 +125,15 @@ const Navbar = () => {
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
                   <Link to="/contact">CONTACT</Link>
+                </li>
+              </div>
+              <div className=" flex md:w-auto w-full ml-5">
+                <li
+                  className={`text-md my-4 text-white transition underline transform duration-500 ${
+                    scaled ? "scale-150" : "scale-100"
+                  }`}
+                >
+                  <Link to="/schedule">SCHEDULE</Link>
                 </li>
               </div>
             </ul>
