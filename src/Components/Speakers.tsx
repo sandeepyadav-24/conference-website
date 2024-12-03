@@ -335,9 +335,9 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
-                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/gnadmkcrpkfc0fvonpej.jpg"
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1733215909/ConferenceAssets/ptefrwgmhe6fbnmdiykh.jpg"
                   className="h-full w-full object-cover rounded-lg "
-                  alt="Dr. Sandeep Kajal"
+                  alt="Dr. Sandeep Poddar"
                 />
               </div>
               <div className="flex flex-col gap-1 col-span-2 my-2">
