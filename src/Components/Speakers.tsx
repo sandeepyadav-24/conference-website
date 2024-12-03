@@ -335,6 +335,31 @@ const Speakers = () => {
             <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
               <div className="col-span-1 w-full h-44">
                 <img
+                  src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/gnadmkcrpkfc0fvonpej.jpg"
+                  className="h-full w-full object-cover rounded-lg "
+                  alt="Dr. Sandeep Kajal"
+                />
+              </div>
+              <div className="flex flex-col gap-1 col-span-2 my-2">
+                <div className="py-2">
+                  <div className="rounded-full w-fit font-semibold bg-blue-800 bg-opacity-20">
+                    <p className="px-2 py-0.5 text-sm text-blue-800">
+                      International Speaker
+                    </p>
+                  </div>
+                </div>
+                <span className="font-semibold text-lg">
+                  Prof. Dr. Sandeep Poddar,
+                </span>
+                <span className="font-light text-xs pr-2">
+                  Deputy Vice Chancellor (Research & Innovation) Lincoln
+                  University College, Malaysia
+                </span>
+              </div>
+            </div>
+            <div className="col-span-1 shadow-md grid grid-cols-3 gap-3 bg-gray-100 rounded-lg">
+              <div className="col-span-1 w-full h-44">
+                <img
                   src="https://res.cloudinary.com/dooi3sikb/image/upload/v1710526986/ConferenceAssets/hvaxgucrjogkzmmelhbq.jpg"
                   className="h-full w-full object-cover rounded-lg "
                   alt="Dr. Ajay Beniwal"
