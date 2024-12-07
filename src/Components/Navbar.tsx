@@ -2,9 +2,15 @@ import { Link } from "react-router-dom";
 import DropDown from "./DropDownButton";
 import Marquee from "react-fast-marquee";
 import { useState, useEffect } from "react";
+
+
+
 const Navbar = () => {
   const [scaled, setScaled] = useState(false);
 
+
+  
+  
   useEffect(() => {
     const intervalId = setInterval(() => {
       setScaled((scaled) => !scaled);
@@ -133,7 +139,7 @@ const Navbar = () => {
                     scaled ? "scale-150" : "scale-100"
                   }`}
                 >
-                  <Link to="/schedule">SCHEDULE</Link>
+                  <a href="https://drive.google.com/file/d/1aaIgv00Dy3gi_qwSz8RLAzR0JlZy0-Ue/view?usp=sharing">SCHEDULE</a>
                 </li>
               </div>
             </ul>
